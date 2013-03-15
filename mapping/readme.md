@@ -1,0 +1,1 @@
+Mapping for doing a mass import of data, and some dummy ArtBase data.
