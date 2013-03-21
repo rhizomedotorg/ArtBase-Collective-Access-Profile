@@ -783,7 +783,7 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    
+
     <!-- asset elements -->
     <metadataElement code="uuid" datatype="Text">
       <labels>
@@ -2026,7 +2026,7 @@
           </labels>
           <bundlePlacements>
             <placement>
-              <bundle></bundle>
+              <bundle>ca_entities</bundle>
             </placement>
           </bundlePlacements>
         </screen>
@@ -2094,13 +2094,10 @@
             <restriction code="asset" type="asset" />
           </typeRestrictions>
           <bundlePlacements>
-           <placement code="ca_objects">
-              <bundle>ca_objects</bundle>
+            <placement code="idno">
+              <bundle>idno</bundle>
               <settings>
-                <setting name="restrict_to_type">Artwork</setting>
-                <setting name="label" locale="en_US">Related Work</setting>
-                <setting name="add_label" locale="en_US">Add work</setting>
-                <setting name="restrict_to_relationship_types">part_of</setting>
+                <setting name="label" locale="en_US">Identifier</setting>
               </settings>
             </placement>
             <placement code="preferred_labels">
@@ -2115,6 +2112,15 @@
             </placement>
             <placement code="ca_attribute_asset_type">
               <bundle>ca_attribute_asset_type</bundle>
+            </placement>
+             <placement code="ca_objects">
+              <bundle>ca_objects</bundle>
+              <settings>
+                <setting name="restrict_to_type">Artwork</setting>
+                <setting name="label" locale="en_US">Related Work</setting>
+                <setting name="add_label" locale="en_US">Add work</setting>
+                <setting name="restrict_to_relationship_types">part_of</setting>
+              </settings>
             </placement>
            <placement code="ca_objects">
               <bundle>ca_objects</bundle>
@@ -2836,51 +2842,6 @@
               <settings>
                 <setting name="label" locale="en_US">Alternate titles</setting>
               </settings>
-            </placement>
-          </bundlePlacements>
-        </screen>
-      </screens>
-    </userInterface>
-    <userInterface code="object_event_cataloguers_ui" type="ca_object_events">
-      <labels>
-        <label locale="en_US">
-          <name>Object event editor</name>
-        </label>
-      </labels>
-      <screens>
-        <screen idno="basic" default="1">
-          <labels>
-            <label locale="en_US">
-              <name>Basic info</name>
-            </label>
-          </labels>
-          <bundlePlacements>
-            <placement code="ca_attribute_description">
-              <bundle>ca_attribute_description</bundle>
-            </placement>
-          </bundlePlacements>
-        </screen>
-        <screen idno="relationships" default="0">
-          <labels>
-            <label locale="en_US">
-              <name>Relationships</name>
-            </label>
-          </labels>
-          <bundlePlacements>
-            <placement code="ca_entities">
-              <bundle>ca_entities</bundle>
-            </placement>
-            <placement code="ca_places">
-              <bundle>ca_places</bundle>
-            </placement>
-            <placement code="ca_subject_programs">
-              <bundle>ca_occurrences</bundle>
-              <settings>
-                <setting name="label">Related subject programs</setting>
-              </settings>
-            </placement>
-            <placement code="ca_storage_locations">
-              <bundle>ca_storage_locations</bundle>
             </placement>
           </bundlePlacements>
         </screen>
