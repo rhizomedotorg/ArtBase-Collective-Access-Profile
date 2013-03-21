@@ -1993,6 +1993,7 @@
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="restrict_to_types">asset</setting>
+                <setting name="label" locale="en_US">Related Asset</setting>
               </settings>
             </placement>
             
@@ -2015,6 +2016,21 @@
             </placement>
           </bundlePlacements>
         </screen>
+        
+        <!-- conservation screen -->
+        <screen idno="conservation" default="0">
+          <labels>
+            <label locale="en_US">
+              <name>Conservation Actions</name>
+            </label>
+          </labels>
+          <bundlePlacements>
+            <placement>
+              <bundle></bundle>
+            </placement>
+          </bundlePlacements>
+        </screen>
+        
         <screen idno="tech_basic" default="1">
           <labels>
             <label locale="en_US">
@@ -2087,8 +2103,12 @@
                 <setting name="restrict_to_relationship_types">part_of</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_uuid">
-              <bundle>ca_attribute_uuid</bundle>
+            <placement code="preferred_labels">
+              <bundle>preferred_labels</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Identifier</setting>
+                <setting name="fieldHeight">1</setting>
+              </settings>
             </placement>
             <placement code="ca_attribute_asset_location">
               <bundle>ca_attribute_asset_location</bundle>
