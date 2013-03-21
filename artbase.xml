@@ -1974,6 +1974,36 @@
                 <setting name="label" locale="en_US">Creation Date</setting>
               </settings>
             </placement>
+            <placement code="ca_collections">
+              <bundle>ca_collections</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Related Collections</setting>
+              </settings>
+            </placement>
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- figure out how to do relation to assets -->
+            <placement code="ca_objects">
+              <bundle>ca_objects</bundle>
+              <settings>
+                <setting name="restrict_to_types">asset</setting>
+              </settings>
+            </placement>
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <placement code="ca_attribute_description_brief">
               <bundle>ca_attribute_description_brief</bundle>
             </placement>
