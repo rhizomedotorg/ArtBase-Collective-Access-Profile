@@ -1953,7 +1953,13 @@
             <restriction code="Sound" type="Sound"/>
             <restriction code="Web" type="Web"/>
           </typeRestrictions>
-          <bundlePlacements>  
+          <bundlePlacements>
+            <placement code="idno">
+              <bundle>idno</bundle>
+              <settings>
+                <setting name="label" locale="en_US">ArtBase Identifier</setting>
+              </settings>
+            </placement>
             <placement code="preferred_labels">
               <bundle>preferred_labels</bundle>
               <settings>
@@ -2141,6 +2147,7 @@
             </label>
           </labels>
           <typeRestrictions>
+            <restriction code="Artwork" type="Artwork"/>
             <restriction code="performance" type="performance"/>
             <restriction code="Web" type="Web"/>
             <restriction code="artist_software" type="artist_software"/>
@@ -2177,6 +2184,7 @@
             </label>
           </labels>
           <typeRestrictions>
+            <restriction code="Artwork" type="Artwork"/>
             <restriction code="Image" type="Image"/>
             <restriction code="Installation" type="Installation" />
             <restriction code="moving_image" type="moving_image"/>
