@@ -477,6 +477,14 @@
                 </label>
               </labels>
             </item>
+            <item idno="preservation_action" enabled="1" default="0">
+              <labels>
+                <label locale="en_US" preferred="1">
+                  <name_singular>Preservation Action</name_singular>
+                  <name_plural>Preservation Actions</name_plural>
+                </label>
+              </labels>
+            </item>
           </items>
         </item>
       </items>
@@ -783,7 +791,21 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-
+    <metadataElement code="pres_action_desc" datatype="Text">
+      <labels>
+        <label locale="en_US">
+          <name>Description of Preservation Event</name>
+          <description>Describe the nature of the preservation event, narrativize its purpose, process and outcome.</description>
+        </label>
+      </labels>
+      <settings>
+        <setting name="fieldWidth">110</setting>
+        <setting name="fieldHeight">10</setting>
+        <setting name="minChars">0</setting>
+        <setting name="maxChars">5000</setting>
+      </settings>
+      <typeRestrictions></typeRestrictions>
+    </metadataElement>
     <!-- asset elements -->
     <metadataElement code="uuid" datatype="Text">
       <labels>
@@ -1981,36 +2003,6 @@
                 <setting name="label" locale="en_US">Creation Date</setting>
               </settings>
             </placement>
-            <placement code="ca_collections">
-              <bundle>ca_collections</bundle>
-              <settings>
-                <setting name="label" locale="en_US">Related Collections</setting>
-              </settings>
-            </placement>
-            
-            
-            
-            
-            
-            
-            
-            
-            <!-- figure out how to do relation to assets -->
-            <placement code="ca_objects">
-              <bundle>ca_objects</bundle>
-              <settings>
-                <setting name="restrict_to_types">asset</setting>
-                <setting name="label" locale="en_US">Related Asset</setting>
-              </settings>
-            </placement>
-            
-            
-            
-            
-            
-            
-            
-            
             
             <placement code="ca_attribute_description_brief">
               <bundle>ca_attribute_description_brief</bundle>
@@ -2163,11 +2155,21 @@
             <placement code="status">
               <bundle>status</bundle>
             </placement>
-            <placement code="ca_object_events">
-              <bundle>ca_object_events</bundle>
-            </placement>
             <placement code="ca_attribute_internal_notes">
               <bundle>ca_attribute_internal_notes</bundle>
+            </placement>
+                        <placement code="ca_collections">
+              <bundle>ca_collections</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Related Collections</setting>
+              </settings>
+            </placement>
+            <placement code="ca_objects">
+              <bundle>ca_objects</bundle>
+              <settings>
+                <setting name="restrict_to_types">asset</setting>
+                <setting name="label" locale="en_US">Related Asset</setting>
+              </settings>
             </placement>
             <placement code="ca_attribute_work_licenses">
               <bundle>ca_attribute_work_licenses</bundle>
@@ -2674,6 +2676,55 @@
             </placement>
             <placement code="ca_attribute_georeference">
               <bundle>ca_attribute_georeference</bundle>
+            </placement>
+          </bundlePlacements>
+        </screen>
+        <screen idno="preservation_action" default="1">
+          <labels>
+            <label locale="en_US">
+              <name>Preservation Action Info</name>
+            </label>
+          </labels>
+          <typeRestrictions>
+            <restriction code="preservation_action" type="preservation_action"/>
+          </typeRestrictions>
+          <bundlePlacements>
+            <placement code="ca_objects">
+              <bundle>ca_objects</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Artwork being treated</setting>
+              </settings>
+            </placement>
+            <placement code="ca_attribute_dates">
+              <bundle>ca_attribute_dates</bundle>
+            </placement>
+            <placement code="ca_entities">
+              <bundle>ca_entities</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Conducted by</setting>
+              </settings>
+            </placement>
+            <placement code="ca_objects">
+              <bundle>ca_objects</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Target Asset</setting>
+              </settings>
+            </placement>
+            <placement code="ca_attribute_pres_action_desc">
+              <bundle>ca_attribute_pres_action_desc</bundle>
+            </placement>
+            <placement code="ca_objects">
+              <bundle>ca_objects</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Tool Used</setting>
+              </settings>
+            </placement>
+            <placement code="ca_objects">
+              <bundle>ca_objects</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Resultant Asset</setting>
+                <setting name="description" locale="en_US">If the preservation event resulted in a new asset, create a relation to that asset here.</setting>
+              </settings>
             </placement>
           </bundlePlacements>
         </screen>
