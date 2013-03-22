@@ -804,7 +804,16 @@
         <setting name="minChars">0</setting>
         <setting name="maxChars">5000</setting>
       </settings>
-      <typeRestrictions></typeRestrictions>
+      <typeRestrictions>
+        <restriction code="r1">
+          <table>ca_occurrences</table>
+          <settings>
+            <setting name="minAttributesPerRow">1</setting>
+            <setting name="maxAttributesPerRow">1</setting>
+            <setting name="minimumAttributeBundlesToDisplay">1</setting>
+          </settings>
+        </restriction>
+      </typeRestrictions>
     </metadataElement>
     <!-- asset elements -->
     <metadataElement code="uuid" datatype="Text">
@@ -2679,6 +2688,8 @@
             </placement>
           </bundlePlacements>
         </screen>
+        
+        <!-- preservation actions -->
         <screen idno="preservation_action" default="1">
           <labels>
             <label locale="en_US">
@@ -2697,14 +2708,17 @@
             </placement>
             <placement code="ca_attribute_dates">
               <bundle>ca_attribute_dates</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Date of action</setting>
+              </settings>
             </placement>
-            <placement code="ca_entities">
+            <placement code="conducted_by">
               <bundle>ca_entities</bundle>
               <settings>
                 <setting name="label" locale="en_US">Conducted by</setting>
               </settings>
             </placement>
-            <placement code="ca_objects">
+            <placement code="target_asset">
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="label" locale="en_US">Target Asset</setting>
@@ -2712,14 +2726,17 @@
             </placement>
             <placement code="ca_attribute_pres_action_desc">
               <bundle>ca_attribute_pres_action_desc</bundle>
+              <settings>
+                <setting name="label" locale="en_US">Description of event</setting>
+              </settings>
             </placement>
-            <placement code="ca_objects">
+            <placement code="tool_used">
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="label" locale="en_US">Tool Used</setting>
               </settings>
             </placement>
-            <placement code="ca_objects">
+            <placement code="resultant_asset">
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="label" locale="en_US">Resultant Asset</setting>
