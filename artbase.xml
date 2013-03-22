@@ -1944,6 +1944,7 @@
             </label>
           </labels>
           <typeRestrictions>
+            <restriction code="Artwork" type="Artwork"/>
             <restriction code="Image" type="Image"/>
             <restriction code="Installation" type="Installation" />
             <restriction code="moving_image" type="moving_image"/>
@@ -2017,19 +2018,7 @@
           </bundlePlacements>
         </screen>
         
-        <!-- conservation screen -->
-        <screen idno="conservation" default="0">
-          <labels>
-            <label locale="en_US">
-              <name>Conservation Actions</name>
-            </label>
-          </labels>
-          <bundlePlacements>
-            <placement>
-              <bundle>ca_entities</bundle>
-            </placement>
-          </bundlePlacements>
-        </screen>
+
         
         <screen idno="tech_basic" default="1">
           <labels>

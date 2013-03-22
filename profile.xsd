@@ -13,7 +13,7 @@
 
 	<xs:simpleType name="langType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[a-z][a-z]"/>
+			<xs:pattern value="[a-z]{2,3}"/>
 		</xs:restriction>
 	</xs:simpleType>
 
@@ -29,9 +29,19 @@
 		</xs:restriction>
 	</xs:simpleType>
 
+	<xs:simpleType name="elementCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[\p{L}0-9_]+"/>
+			<xs:minLength value="1"/>
+			<xs:maxLength value="30"/>
+		</xs:restriction>
+	</xs:simpleType>
+
 	<xs:simpleType name="codeType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value=".{1,100}"/>
+			<xs:pattern value="[\p{L}0-9_]+"/>
+			<xs:minLength value="1"/>
+			<xs:maxLength value="100"/>
 		</xs:restriction>
 	</xs:simpleType>
 
@@ -232,7 +242,7 @@
 			<xs:element name="typeRestrictions" type="typeRestrictions" minOccurs="1" maxOccurs="1"
 			/>
 		</xs:sequence>
-		<xs:attribute name="code" type="codeType" use="required"/>
+		<xs:attribute name="code" type="elementCodeType" use="required"/>
 		<xs:attribute name="datatype" type="datatypeList" use="required"/>
 		<xs:attribute name="list" type="xs:string" use="optional"/>
 	</xs:complexType>
@@ -266,7 +276,7 @@
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="code" type="codeType" use="required"/>
+		<xs:attribute name="code" type="elementCodeType" use="required"/>
 		<xs:attribute name="datatype" type="datatypeList" use="required"/>
 		<xs:attribute name="list" type="xs:string" use="optional"/>
 	</xs:complexType>
@@ -279,6 +289,7 @@
 						<xs:element name="table" type="xs:string" minOccurs="1"
 							maxOccurs="unbounded"/>
 						<xs:element name="type" type="xs:string" minOccurs="0" maxOccurs="1"/>
+						<xs:element name="includeSubtypes" type="xs:string" minOccurs="0" maxOccurs="1"/>
 						<xs:element name="settings" minOccurs="0" maxOccurs="1">
 							<xs:complexType>
 								<xs:sequence>
@@ -295,7 +306,7 @@
 							</xs:complexType>
 						</xs:element>
 					</xs:sequence>
-					<xs:attribute name="code" type="codeType" use="required"/>
+					<xs:attribute name="code" type="codeType" use="optional"/>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
@@ -315,8 +326,8 @@
 										<xs:complexType>
 											<xs:simpleContent>
 												<xs:extension base="xs:string">
-												<xs:attribute name="code" type="xs:string"/>
-												<xs:attribute name="type" type="xs:string"/>
+												<xs:attribute name="code" type="xs:string" use="required"/>
+												<xs:attribute name="type" type="xs:string" use="required"/>
 												</xs:extension>
 											</xs:simpleContent>
 										</xs:complexType>
@@ -336,7 +347,7 @@
 
 	<xs:complexType name="bundlePlacements">
 		<xs:sequence>
-			<xs:element name="placement" minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="placement" minOccurs="0" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:sequence>
 						<xs:element name="bundle" type="xs:string" minOccurs="1" maxOccurs="1"/>
@@ -351,7 +362,8 @@
 												use="required"/>
 												<xs:attribute name="option" type="xs:string"
 												use="optional"/>
-												<xs:attribute name="locale" type="xs:string" use="optional"/>
+												<xs:attribute name="locale" type="xs:string"
+												use="optional"/>
 												</xs:extension>
 											</xs:simpleContent>
 										</xs:complexType>
@@ -360,7 +372,40 @@
 							</xs:complexType>
 						</xs:element>
 					</xs:sequence>
-					<xs:attribute name="code" type="codeType"/>
+					<xs:attribute name="code" type="codeType" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="searchFormBundlePlacements">
+		<xs:sequence>
+			<xs:element name="placement" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="bundle" type="xs:string" minOccurs="1" maxOccurs="1"/>
+						<xs:element name="settings" minOccurs="0" maxOccurs="1">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="setting" minOccurs="0" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:simpleContent>
+												<xs:extension base="xs:string">
+												<xs:attribute name="name" type="xs:string"
+												use="required"/>
+												<xs:attribute name="option" type="xs:string"
+												use="optional"/>
+												<xs:attribute name="locale" type="xs:string"
+												use="optional"/>
+												</xs:extension>
+											</xs:simpleContent>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="code" type="codeType" use="optional"/>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
@@ -378,8 +423,9 @@
 						<xs:element name="types" type="relationshipTypes" minOccurs="0"
 							maxOccurs="1"/>
 					</xs:sequence>
-					<xs:attribute name="code" type="codeType" use="required"/>
+					<xs:attribute name="code" type="elementCodeType" use="required"/>
 					<xs:attribute name="default" type="booleanType" use="required"/>
+					<xs:attribute name="rank" type="xs:integer" use="optional"/>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
@@ -407,8 +453,8 @@
 												use="required"/>
 											<xs:attribute name="dialect" type="xs:string"
 												use="optional"/>
-											<xs:attribute name="dontUseForCataloguing" type="booleanType"
-												use="optional"/>
+											<xs:attribute name="dontUseForCataloguing"
+												type="booleanType" use="optional"/>
 										</xs:extension>
 									</xs:simpleContent>
 								</xs:complexType>
@@ -427,7 +473,7 @@
 									<xs:sequence>
 										<xs:element name="labels" type="listLabels" minOccurs="1"
 											maxOccurs="1"/>
-										<xs:element name="items" type="listItems" minOccurs="1"
+										<xs:element name="items" type="listItems" minOccurs="0"
 											maxOccurs="1"/>
 									</xs:sequence>
 									<xs:attribute name="code" type="codeType" use="required"/>
@@ -568,7 +614,8 @@
 												<xs:simpleContent>
 												<xs:extension base="xs:string">
 												<xs:attribute name="name" type="xs:string"/>
-												<xs:attribute name="locale" type="xs:string" use="optional"/>
+												<xs:attribute name="locale" type="xs:string"
+												use="optional"/>
 												</xs:extension>
 												</xs:simpleContent>
 												</xs:complexType>
@@ -608,7 +655,8 @@
 												<xs:simpleContent>
 												<xs:extension base="xs:string">
 												<xs:attribute name="name" type="xs:string"/>
-												<xs:attribute name="locale" type="xs:string" use="optional"/>
+												<xs:attribute name="locale" type="xs:string"
+												use="optional"/>
 												</xs:extension>
 												</xs:simpleContent>
 												</xs:complexType>
@@ -616,7 +664,7 @@
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
-										<xs:element name="bundlePlacements" type="bundlePlacements"
+										<xs:element name="bundlePlacements" type="searchFormBundlePlacements"
 											minOccurs="1" maxOccurs="1"/>
 									</xs:sequence>
 									<xs:attribute name="code" type="codeType" use="required"/>
@@ -624,6 +672,39 @@
 									<xs:attribute name="system" type="booleanType" use="required"/>
 
 								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<!-- LOGINS -->
+				<xs:element name="logins" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="login" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+
+										<xs:element name="role" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="code" type="codeType"
+												use="required"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="group" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="code" type="codeType"
+												use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="user_name" type="xs:string" use="required"/>
+									<xs:attribute name="password" type="xs:string" use="optional"/>
+									<xs:attribute name="fname" type="xs:string" use="required"/>
+									<xs:attribute name="lname" type="xs:string" use="required"/>
+									<xs:attribute name="email" type="xs:string" use="required"/>
+								</xs:complexType>
+
 							</xs:element>
 						</xs:sequence>
 					</xs:complexType>
