@@ -2165,7 +2165,7 @@
               <bundle>status</bundle>
             </placement>
             <placement code="artwork_licenses">
-              <bundle>licenses</bundle>
+              <bundle>ca_attribute_work_licenses</bundle>
             </placement>
             <placement code="ca_attribute_internal_notes">
               <bundle>ca_attribute_internal_notes</bundle>
