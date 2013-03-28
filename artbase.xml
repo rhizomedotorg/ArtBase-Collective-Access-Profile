@@ -353,31 +353,7 @@
         </item>
       </items>
     </list>
-    <list code="checksum_type" hierarchical="0" system="0" vocabulary="0">
-      <labels>
-        <label locale="en_US">
-          <name>Checksum Type</name>
-        </label>
-      </labels>
-      <items>
-        <item idno="SHA1" enabled="1" default="1">
-          <labels>
-            <label locale="en_US" preferred="1">
-              <name_singular>SHA1</name_singular>
-              <name_plural>SHA1</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="MD5" enabled="1" default="0">
-          <labels>
-            <label locale="en_US" preferred="0">
-              <name_singular>MD5</name_singular>
-              <name_plural>MD5</name_plural>
-            </label>
-          </labels>
-        </item>
-      </items>
-    </list>
+   
     <list code="storage_location_types" hierarchical="1" system="0" vocabulary="0">
       <labels>
         <label locale="en_US">
@@ -912,58 +888,6 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    <metadataElement code="checksum" datatype="Container">
-      <labels>
-        <label locale="en_US">
-          <name>Checksum</name>
-        </label>
-      </labels>
-      <elements>
-        <metadataElement code="checksum_value" datatype="Integer">
-          <labels>
-            <label locale="en_US">
-              <name>Checksum Value</name>
-            </label>
-          </labels>
-          <settings>
-            <setting name="fieldWidth">20</setting>
-            <setting name="fieldHeight">1</setting>
-          </settings>
-        </metadataElement>
-        <metadataElement code="checksum_date" datatype="DateRange">
-          <labels>
-            <label locale="en_US">
-              <name>Checksum Date</name>
-            </label>
-          </labels>
-          <settings>
-            <setting name="fieldWidth">20</setting>
-            <setting name="fieldHeight">1</setting>
-          </settings>
-        </metadataElement>
-        <metadataElement code="checksum_type" datatype="List" list="checksum_type">
-          <labels>
-            <label locale="en_US">
-              <name>Checksum Type</name>
-            </label>
-          </labels>
-          <settings>
-            <setting name="fieldWidth">40</setting>
-          </settings>
-        </metadataElement>
-      </elements>
-      <typeRestrictions>
-        <restriction code="r1">
-          <table>ca_objects</table>
-          <type>asset</type>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-      </typeRestrictions>
-    </metadataElement>  
     <metadataElement code="conservation_treatment" datatype="Container">
       <labels>
         <label locale="en_US">
@@ -2135,10 +2059,7 @@
             </placement>            
             <placement code="ca_attribute_asset_provenance">
               <bundle>ca_attribute_asset_provenance</bundle>
-            </placement>
-            <placement code="ca_attribute_checksum">
-              <bundle>ca_attribute_checksum</bundle>
-            </placement>            
+            </placement>          
           </bundlePlacements>
         </screen>
         <screen idno="administrative" default="0">
