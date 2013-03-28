@@ -319,7 +319,7 @@
         </item>
         <item idno="file" enabled="1" default="1">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
               <name_singular>File</name_singular>
               <name_plural>Files</name_plural>
             </label>
@@ -385,7 +385,32 @@
         </item>
       </items>
     </list>
-
+    <list code="location_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Location Types</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="relative_path" enabled="1" default="1">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Relative File Path</name_singular>
+              <name_plural>Relative File Paths</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="url" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>URL</name_singular>
+              <name_plural>URL</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
     <!-- entity related lists -->
     <list code="entity_types" hierarchical="1" system="0" vocabulary="0">
       <labels>
@@ -815,19 +840,51 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    <metadataElement code="asset_location" datatype="Text">
+    <metadataElement code="asset_location_and_type" datatype="Container">
       <labels>
         <label locale="en_US">
-          <name>Asset Location</name>
-          <description>relative file path, or other point of reference to a specfic digital object</description>
+          <name>Asset Location and Type</name>
         </label>
       </labels>
-      <settings>
-        <setting name="fieldWidth">70</setting>
-        <setting name="fieldHeight">1</setting>
-        <setting name="minChars">0</setting>
-        <setting name="maxChars">100</setting>
-      </settings>
+      <elements>
+        <metadataElement code="asset_location" datatype="Text">
+          <labels>
+            <label locale="en_US">
+              <name>Asset Location</name>
+              <description>relative file path, or other point of reference to a specfic digital object</description>
+            </label>
+          </labels>
+          <settings>
+            <setting name="fieldWidth">70</setting>
+            <setting name="fieldHeight">1</setting>
+            <setting name="minChars">0</setting>
+            <setting name="maxChars">100</setting>
+          </settings>
+        </metadataElement>
+        <metadataElement code="location_type" datatype="List" list="location_types">
+          <labels>
+            <label locale="en_US">
+              <name>Location Type</name>
+            </label>
+          </labels>
+          <settings>
+            <setting name="fieldWidth">70</setting>
+            <setting name="doesNotTakeLocale">1</setting>
+          </settings>
+        </metadataElement>
+        <metadataElement code="asset_type" datatype="List" list="asset_type">
+          <labels>
+            <label locale="en_US">
+              <name>Asset Type</name>
+              <description>Is the asset being described at the directory or file level? Archive container formats (i.e. zip, tar, etc) are files.</description>
+            </label>
+          </labels>
+          <settings>
+            <setting name="fieldWidth">70</setting>
+            <setting name="doesNotTakeLocale">1</setting>
+          </settings>
+        </metadataElement>
+      </elements>
       <typeRestrictions>
         <restriction code="r1">
           <table>ca_objects</table>
@@ -840,52 +897,53 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    <metadataElement code="asset_type" datatype="List" list="asset_type">
+    <metadataElement code="ingest" datatype="Container">
       <labels>
         <label locale="en_US">
-          <name>Asset Type</name>
-          <description>Is the asset being described at the directory or file level? Archive container formats (i.e. zip, tar, etc) are files.</description>
+          <name>Ingest</name>
         </label>
       </labels>
       <settings>
-        <setting name="fieldWidth">70</setting>
         <setting name="doesNotTakeLocale">1</setting>
       </settings>
+      <elements>
+        <metadataElement code="ingest_date" datatype="DateRange">
+          <labels>
+            <label locale="en_US">
+              <name>Ingest Date</name>
+            </label>
+          </labels>
+          <settings>
+            <setting name="fieldWidth">40</setting>
+            <setting name="fieldHeight">1</setting>
+          </settings>
+        </metadataElement>
+        <metadataElement code="asset_provenance" datatype="List" list="asset_provenance">
+          <labels>
+            <label locale="en_US">
+              <name>Asset Provenance</name>
+              <description>Where did the asset come from? How was it aquired?</description>
+            </label>
+          </labels>
+          <settings>
+            <setting name="fieldWidth">70</setting>
+            <setting name="doesNotTakeLocale">1</setting>
+          </settings>
+        </metadataElement>
+      </elements>
       <typeRestrictions>
         <restriction code="r1">
           <table>ca_objects</table>
-          <type>asset</type>
           <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
+            <setting name="minAttributesPerRow">0</setting>
+            <setting name="maxAttributesPerRow">10</setting>
             <setting name="minimumAttributeBundlesToDisplay">1</setting>
           </settings>
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    <metadataElement code="asset_provenance" datatype="List" list="asset_provenance">
-      <labels>
-        <label locale="en_US">
-          <name>Asset Provenance</name>
-          <description>Where did the asset come from? How was it aquired?</description>
-        </label>
-      </labels>
-      <settings>
-        <setting name="fieldWidth">70</setting>
-        <setting name="doesNotTakeLocale">1</setting>
-      </settings>
-      <typeRestrictions>
-        <restriction code="r1">
-          <table>ca_objects</table>
-          <type>asset</type>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-      </typeRestrictions>
-    </metadataElement>
+
+ 
     <metadataElement code="conservation_treatment" datatype="Container">
       <labels>
         <label locale="en_US">
@@ -2043,16 +2101,13 @@
                 <setting name="label" locale="en_US">Identifier</setting>
               </settings>
             </placement>
-            <placement code="asset_description">
-              <bundle>asset_description</bundle>
+            <placement code="ca_attribute_asset_description">
+              <bundle>ca_attribute_asset_description</bundle>
             </placement>
-            <placement code="ca_attribute_asset_location">
-              <bundle>ca_attribute_asset_location</bundle>
+            <placement code="ca_attribute_asset_location_and_type">
+              <bundle>ca_attribute_asset_location_and_type</bundle>
             </placement>
-            <placement code="ca_attribute_asset_type">
-              <bundle>ca_attribute_asset_type</bundle>
-            </placement>
-             <placement code="ca_objects">
+             <placement code="asset_to_artwork_rel">
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="restrict_to_type">Artwork</setting>
@@ -2061,7 +2116,7 @@
                 <setting name="restrict_to_relationship_types">part_of</setting>
               </settings>
             </placement>
-           <placement code="ca_objects">
+           <placement code="asset_to_tech_rel">
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="restrict_to_type">tech</setting>
@@ -2070,15 +2125,12 @@
                 <setting name="restrict_to_relationship_types">related_tech</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_dates">
-              <bundle>ca_attribute_dates</bundle>
+            <placement code="ca_attribute_ingest">
+              <bundle>ca_attribute_ingest</bundle>
               <settings>
-                <setting name="label" locale="en_US">Ingest Date</setting>
+                <setting name="label" locale="en_US">Ingest</setting>
               </settings>
-            </placement>            
-            <placement code="ca_attribute_asset_provenance">
-              <bundle>ca_attribute_asset_provenance</bundle>
-            </placement>          
+            </placement>                  
           </bundlePlacements>
         </screen>
         <screen idno="administrative" default="0">
