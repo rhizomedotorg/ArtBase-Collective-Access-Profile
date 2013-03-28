@@ -2164,6 +2164,9 @@
             <placement code="status">
               <bundle>status</bundle>
             </placement>
+            <placement code="artwork_licenses">
+              <bundle>licenses</bundle>
+            </placement>
             <placement code="ca_attribute_internal_notes">
               <bundle>ca_attribute_internal_notes</bundle>
             </placement>
@@ -3275,8 +3278,46 @@
             </type>
           </types>
         </type>
-       </types>
+        <!--
+        <type code="work_to_asset" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>has asset</typename>
+              <typename_reverse>asset for</typename_reverse>
+            </label>
+          </labels>
+          <types>
+            <type code="primary_asset" default="0">
+              <labels>
+                <label locale="en_US">
+                  <typename>has primary asset</typename>
+                  <typename_reverse>has primary asset</typename_reverse>
+                </label>
+              </labels>
+            </type>
+          </types>
+        </type>
+        <type code="asset_to_asset" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>is version of</typename>
+              <typename_reverse>is version of</typename_reverse>
+            </label>
+          </labels>
+          <types>
+            <type code="derivitive" default="0">
+              <labels>
+                <label locale="en_US">
+                  <typename>is derivitive of</typename>
+                  <typename_reverse>has derivitive</typename_reverse>
+                </label>
+              </labels>
+            </type>
+          </types>
+        </type> -->
+      </types>
     </relationshipTable>
+    
     <relationshipTable name="ca_objects_x_vocabulary_terms">
       <types>
         <type code="described" default="1">
