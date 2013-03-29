@@ -445,6 +445,35 @@
         </item>
       </items>
     </list>
+ 
+    <!-- general lists -->
+    <list code="date_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Date types</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="creation" enabled="1" default="1">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Creation date</name_singular>
+              <name_plural>Creation dates</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="ingest" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>Ingest date</name_singular>
+              <name_plural>Ingest dates</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+  
+    <!-- occurence related lists -->
     <list code="occurrence_types" hierarchical="1" system="0" vocabulary="0">
       <labels>
         <label locale="en_US">
@@ -484,38 +513,19 @@
                 </label>
               </labels>
             </item>
+            <item idno="rhizome_event" enabled="1" default="0">
+              <labels>
+                <label locale="en_US" preferred="1">
+                  <name_singular>Rhizome Event</name_singular>
+                  <name_plural>Rhizome Event</name_plural>
+                </label>
+              </labels>
+            </item>
           </items>
         </item>
       </items>
     </list>
  
-    <!-- general lists -->
-    <list code="date_types" hierarchical="0" system="0" vocabulary="0">
-      <labels>
-        <label locale="en_US">
-          <name>Date types</name>
-        </label>
-      </labels>
-      <items>
-        <item idno="creation" enabled="1" default="1">
-          <labels>
-            <label locale="en_US" preferred="1">
-              <name_singular>Creation date</name_singular>
-              <name_plural>Creation dates</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="ingest" enabled="1" default="0">
-          <labels>
-            <label locale="en_US" preferred="0">
-              <name_singular>Ingest date</name_singular>
-              <name_plural>Ingest dates</name_plural>
-            </label>
-          </labels>
-        </item>
-      </items>
-    </list>
-  
   </lists>
   
   <elementSets>
@@ -640,6 +650,9 @@
           </labels>
           <settings>
             <setting name="fieldWidth">40</setting>
+            <setting name="minAttributesPerRow">0</setting>
+            <setting name="maxAttributesPerRow">10</setting>
+            <setting name="minimumAttributeBundlesToDisplay">1</setting>
           </settings>
         </metadataElement>
       </elements>
@@ -647,16 +660,16 @@
         <restriction code="r1">
           <table>ca_occurrences</table>
           <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">10</setting>
+            <setting name="minAttributesPerRow">1</setting>
+            <setting name="maxAttributesPerRow">1</setting>
             <setting name="minimumAttributeBundlesToDisplay">1</setting>
           </settings>
         </restriction>
-        <restriction code="r2">
+        <restriction code="r">
           <table>ca_objects</table>
           <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">10</setting>
+            <setting name="minAttributesPerRow">1</setting>
+            <setting name="maxAttributesPerRow">1</setting>
             <setting name="minimumAttributeBundlesToDisplay">1</setting>
           </settings>
         </restriction>
@@ -672,7 +685,7 @@
       </labels>
       <typeRestrictions></typeRestrictions>
     </metadataElement>
-    <metadataElement code="object_media" datatype="Media">
+    <metadataElement code="media" datatype="Media">
       <labels>
         <label locale="en_US">
           <name>Representations / Documentation</name>
@@ -681,6 +694,13 @@
       <typeRestrictions>
         <restriction code="r1">
           <table>ca_objects</table>
+          <settings>
+            <setting name="minAttributesPerRow">1</setting>
+            <setting name="minimumAttributeBundlesToDisplay">1</setting>
+          </settings>
+        </restriction>
+        <restriction code="r1">
+          <table>ca_occurences</table>
           <settings>
             <setting name="minAttributesPerRow">1</setting>
             <setting name="minimumAttributeBundlesToDisplay">1</setting>
@@ -1092,83 +1112,10 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>  
-    <metadataElement code="description_brief" datatype="Text">
+    <metadataElement code="description" datatype="Text">
       <labels>
         <label locale="en_US">
-          <name>Short Description</name>
-          <!-- need to figure out how long / short this can be -->
-          <description>A brief, concise (under 50 word) description.</description>
-        </label>
-      </labels>
-      <settings>
-        <setting name="fieldWidth">110</setting>
-        <setting name="fieldHeight">4</setting>
-        <setting name="minChars">0</setting>
-        <setting name="maxChars">250</setting>
-      </settings>
-      <typeRestrictions>
-        <restriction code="r1">
-          <table>ca_objects</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="r2">
-          <table>ca_places</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="r3">
-          <table>ca_occurrences</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="r4">
-          <table>ca_collections</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="r5">
-          <table>ca_storage_locations</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="r6">
-          <table>ca_object_lots</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="r7">
-          <table>ca_object_events</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-      </typeRestrictions>
-    </metadataElement>   
-    <metadataElement code="description_full" datatype="Text">
-      <labels>
-        <label locale="en_US">
-          <name>Full description</name>
+          <name>Description</name>
           <description>A longer, more in-depth description. (about 800 word max)</description>
         </label>
       </labels>
@@ -2017,12 +1964,8 @@
                 <setting name="label" locale="en_US">Creation Date</setting>
               </settings>
             </placement>
-            
-            <placement code="ca_attribute_description_brief">
-              <bundle>ca_attribute_description_brief</bundle>
-            </placement>
-            <placement code="ca_attribute_description_full">
-              <bundle>ca_attribute_description_full</bundle>
+            <placement code="ca_attribute_description">
+              <bundle>ca_attribute_description</bundle>
             </placement>
             <placement code="ca_attribute_primary_url">
               <bundle>ca_attribute_primary_url</bundle>
@@ -2624,18 +2567,15 @@
                 <setting name="add_label" locale="en_US">Add institution</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_description_brief">
-              <bundle>ca_attribute_description_brief</bundle>
-            </placement>
-            <placement code="ca_attribute_description_full">
-              <bundle>ca_attribute_description_full</bundle>
+            <placement code="ca_attribute_description">
+              <bundle>ca_attribute_description</bundle>
             </placement>
             <placement code="ca_attribute_georeference">
               <bundle>ca_attribute_georeference</bundle>
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="historic_event_basic" default="0">
+        <screen idno="event_basic" default="0">
           <labels>
             <label locale="en_US">
               <name>Basic info</name>
@@ -2643,12 +2583,13 @@
           </labels>
           <typeRestrictions>
             <restriction code="historic_event" type="historic_event"/>
+            <restriction code="rhizome_event" type="rhizome_event"/>
           </typeRestrictions>
           <bundlePlacements>
             <placement code="preferred_labels">
               <bundle>preferred_labels</bundle>
               <settings>
-                <setting name="label" locale="en_US">Title of historic event</setting>
+                <setting name="label" locale="en_US">Title of event</setting>
               </settings>
             </placement>
             <placement code="ca_attribute_dates">
@@ -2672,18 +2613,29 @@
                 <setting name="add_label" locale="en_US">Add institution</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_description_brief">
-              <bundle>ca_attribute_description_brief</bundle>
-            </placement>
-            <placement code="ca_attribute_description_full">
-              <bundle>ca_attribute_description_full</bundle>
+            <placement code="ca_attribute_description">
+              <bundle>ca_attribute_description</bundle>
             </placement>
             <placement code="ca_attribute_georeference">
               <bundle>ca_attribute_georeference</bundle>
             </placement>
           </bundlePlacements>
         </screen>
-        
+        <screen idno="media" default="0">
+          <labels>
+            <label locale="en_US">
+              <name>Documentation</name>
+            </label>
+          </labels>
+          <typeRestrictions>
+            <restriction code="event" type="event"/>
+          </typeRestrictions>
+          <bundlePlacements>
+            <placement code="ca_object_representations">
+              <bundle>ca_object_representations</bundle>
+            </placement>
+          </bundlePlacements>
+        </screen>
         <!-- preservation actions -->
         <screen idno="preservation_action" default="1">
           <labels>
