@@ -699,7 +699,7 @@
             <setting name="minimumAttributeBundlesToDisplay">1</setting>
           </settings>
         </restriction>
-        <restriction code="r1">
+        <restriction code="r2">
           <table>ca_occurences</table>
           <settings>
             <setting name="minAttributesPerRow">1</setting>
