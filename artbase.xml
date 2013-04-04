@@ -300,7 +300,32 @@
         </item>
       </items>
     </list>
-
+    <list code="link_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Link Type</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="footnote" enabled="1" default="1">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Footnote</name_singular>
+              <name_plural>Footnotes</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="primary_URL" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>Primary URL</name_singular>
+              <name_plural>Primary URLs</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
     <!-- asset related lists -->
     <list code="asset_type" hierarchical="0" system="0" vocabulary="1">
       <labels>
@@ -529,7 +554,6 @@
   </lists>
   
   <elementSets>
-    
     <!-- general elements -->
     <metadataElement code="internal_notes" datatype="Text">
       <labels>
@@ -676,39 +700,37 @@
       </typeRestrictions>
     </metadataElement>
     
+    <!-- occurence elements -->
+    <metadataElement code="event_media" datatype="Media">
+      <labels>
+        <label locale="en_US">
+          <name>Event Media</name>
+        </label>
+      </labels>
+      <typeRestrictions>
+        <restriction code="r1">
+          <table>ca_occurrences</table>
+          <settings>
+            <setting name="minAttributesPerRow">1</setting>
+            <setting name="minimumAttributeBundlesToDisplay">1</setting>
+            <setting name="minimumAttributeBundlesToDisplay">1</setting>
+          </settings>
+        </restriction>
+      </typeRestrictions>
+    </metadataElement>  
+    
     <!-- artwork elements -->
-    <metadataElement code="work_licenses" datatype="List" list="licenses">
+    <metadataElement code="licenses" datatype="List" list="licenses">
       <labels>
         <label locale="en_US">
           <name>Rights / License</name>
         </label>
       </labels>
-      <typeRestrictions></typeRestrictions>
-    </metadataElement>
-    <metadataElement code="media" datatype="Media">
-      <labels>
-        <label locale="en_US">
-          <name>Representations / Documentation</name>
-        </label>
-      </labels>
       <typeRestrictions>
-        <restriction code="r1">
-          <table>ca_objects</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="r2">
-          <table>ca_occurences</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
+         
       </typeRestrictions>
     </metadataElement>
-    <metadataElement code="dimensions" datatype="Container">
+     <metadataElement code="dimensions" datatype="Container">
       <labels>
         <label locale="en_US">
           <name>Dimensions</name>
@@ -834,6 +856,7 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
+   
     <!-- asset elements -->
     <metadataElement code="uuid" datatype="Text">
       <labels>
@@ -962,8 +985,6 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-
- 
     <metadataElement code="conservation_treatment" datatype="Container">
       <labels>
         <label locale="en_US">
@@ -1234,7 +1255,7 @@
           </labels>
           <settings/>
           <elements>
-            <metadataElement code="url_source" datatype="Text">
+            <metadataElement code="website_name" datatype="Text">
               <labels>
                 <label locale="en_US">
                   <name>Web site name</name>
@@ -1246,6 +1267,13 @@
                 <setting name="minChars">0</setting>
                 <setting name="maxChars">65535</setting>
               </settings>
+            </metadataElement>
+            <metadataElement code="link_type" datatype="List" list="link_types">
+              <labels>
+                <label locale="en_US">
+                  <name>Link Type</name>
+                </label>
+              </labels>
             </metadataElement>
           </elements>
         </metadataElement>
@@ -1909,7 +1937,6 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
- 
   </elementSets>
   
   <userInterfaces> 
@@ -1972,9 +1999,6 @@
             </placement>
           </bundlePlacements>
         </screen>
-        
-
-        
         <screen idno="tech_basic" default="1">
           <labels>
             <label locale="en_US">
@@ -2099,8 +2123,8 @@
             <placement code="status">
               <bundle>status</bundle>
             </placement>
-            <placement code="artwork_licenses">
-              <bundle>ca_attribute_work_licenses</bundle>
+            <placement code="licenses">
+              <bundle>licenses</bundle>
             </placement>
             <placement code="ca_attribute_internal_notes">
               <bundle>ca_attribute_internal_notes</bundle>
@@ -2118,8 +2142,8 @@
                 <setting name="label" locale="en_US">Related Asset</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_work_licenses">
-              <bundle>ca_attribute_work_licenses</bundle>
+            <placement code="ca_attribute_rights">
+              <bundle>ca_attribute_rights</bundle>
             </placement>
             <placement code="ca_collections">
               <bundle>ca_collections</bundle>
@@ -2154,8 +2178,7 @@
           </bundlePlacements>
         </screen>
        </screens>
-    </userInterface>
-    
+    </userInterface>  
     <userInterface code="entity_cataloguers_ui" type="ca_entities">
       <labels>
         <label locale="en_US">
@@ -2196,7 +2219,7 @@
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="members" default="0">
+        <screen idno="collective_members" default="0">
           <labels>
             <label locale="en_US">
               <name>Collective Members</name>
@@ -2628,11 +2651,14 @@
             </label>
           </labels>
           <typeRestrictions>
-            <restriction code="event" type="event"/>
+            <restriction code="exhibitions" type="exhibitions"></restriction>
+            <restriction code="historic_event" type="historic_event"></restriction>
+            <restriction code="preservation_action" type="preservation_action"></restriction>
+            <restriction code="rhizome_event" type="rhizome_event"></restriction>
           </typeRestrictions>
           <bundlePlacements>
-            <placement code="ca_object_representations">
-              <bundle>ca_object_representations</bundle>
+            <placement code="ca_attribute_event_media">
+              <bundle>ca_attribute_event_media</bundle>
             </placement>
           </bundlePlacements>
         </screen>
@@ -3260,8 +3286,7 @@
           </types>
         </type> -->
       </types>
-    </relationshipTable>
-    
+    </relationshipTable>   
     <relationshipTable name="ca_objects_x_vocabulary_terms">
       <types>
         <type code="described" default="1">
