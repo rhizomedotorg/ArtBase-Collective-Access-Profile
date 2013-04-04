@@ -229,13 +229,20 @@
             <label locale="en_US" preferred="1">
               <name_singular>Approved</name_singular>
               <name_plural>Approved</name_plural>
-              
+            </label>
+          </labels>
+        </item>
+        <item idno="5" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>Needs repair</name_singular>
+              <name_plural>Need repairs</name_plural>
             </label>
           </labels>
         </item>
       </items>
     </list>
-    <list code="licenses" hierarchical="1" system="0" vocabulary="0">
+    <list code="licenses" hierarchical="0" system="0" vocabulary="0">
       <labels>
         <label locale="en_US">
           <name>License / Rights</name>
@@ -950,29 +957,59 @@
         <setting name="doesNotTakeLocale">1</setting>
       </settings>
       <elements>
-        <metadataElement code="ingest_date" datatype="DateRange">
+        <metadataElement code="ingest_line_1" datatype="Container">
           <labels>
             <label locale="en_US">
-              <name>Ingest Date</name>
+              <name></name>
             </label>
           </labels>
-          <settings>
-            <setting name="fieldWidth">40</setting>
-            <setting name="fieldHeight">1</setting>
-          </settings>
+          <elements>
+            <metadataElement code="ingest_date" datatype="DateRange">
+              <labels>
+                <label locale="en_US">
+                  <name></name>
+                </label>
+              </labels>
+              <settings>
+                <setting name="fieldWidth">40</setting>
+                <setting name="fieldHeight">1</setting>
+              </settings>
+            </metadataElement>
+            <metadataElement code="asset_provenance" datatype="List" list="asset_provenance">
+              <labels>
+                <label locale="en_US">
+                  <name>Asset Provenance</name>
+                  <description>Where did the asset come from? How was it aquired?</description>
+                </label>
+              </labels>
+              <settings>
+                <setting name="fieldWidth">70</setting>
+                <setting name="doesNotTakeLocale">1</setting>
+              </settings>
+            </metadataElement>
+          </elements>
         </metadataElement>
-        <metadataElement code="asset_provenance" datatype="List" list="asset_provenance">
+        <metadataElement code="ingest_line_2" datatype="Container">
           <labels>
             <label locale="en_US">
-              <name>Asset Provenance</name>
-              <description>Where did the asset come from? How was it aquired?</description>
+              <name></name>
             </label>
           </labels>
-          <settings>
-            <setting name="fieldWidth">70</setting>
-            <setting name="doesNotTakeLocale">1</setting>
-          </settings>
+          <elements>
+            <metadataElement code="provenance_note" datatype="Text">
+              <labels>
+                <label locale="en_US">
+                  <name>Provenance Note</name>
+                </label>
+              </labels>
+              <settings>
+                <setting name="fieldWidth">90</setting>
+                <setting name="fieldHeight">2</setting>
+              </settings>
+            </metadataElement>
+          </elements>
         </metadataElement>
+
       </elements>
       <typeRestrictions>
         <restriction code="r1">
