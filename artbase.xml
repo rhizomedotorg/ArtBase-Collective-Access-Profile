@@ -234,7 +234,7 @@
         </item>
         <item idno="5" enabled="1" default="0">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
               <name_singular>Needs repair</name_singular>
               <name_plural>Need repairs</name_plural>
             </label>
@@ -242,7 +242,7 @@
         </item>
       </items>
     </list>
-    <list code="licenses" hierarchical="0" system="0" vocabulary="0">
+    <list code="licenses" hierarchical="1" system="0" vocabulary="0">
       <labels>
         <label locale="en_US">
           <name>License / Rights</name>
@@ -727,17 +727,28 @@
     </metadataElement>  
     
     <!-- artwork elements -->
-    <metadataElement code="licenses" datatype="List" list="licenses">
+    <metadataElement code="artwork_licenses" datatype="List" list="licenses">
       <labels>
         <label locale="en_US">
           <name>Rights / License</name>
         </label>
       </labels>
+      <settings>
+        <setting name="fieldWidth">70</setting>
+        <setting name="doesNotTakeLocale">1</setting>
+      </settings>
       <typeRestrictions>
-         
+        <restriction code="r1">
+          <table>ca_objects</table>
+          <settings>
+            <setting name="minAttributesPerRow">1</setting>
+            <setting name="maxAttributesPerRow">1</setting>
+            <setting name="minimumAttributeBundlesToDisplay">1</setting>
+          </settings>
+        </restriction>
       </typeRestrictions>
     </metadataElement>
-     <metadataElement code="dimensions" datatype="Container">
+    <metadataElement code="dimensions" datatype="Container">
       <labels>
         <label locale="en_US">
           <name>Dimensions</name>
@@ -804,37 +815,6 @@
             <setting name="minAttributesPerRow">1</setting>
             <setting name="maxAttributesPerRow">100</setting>
             <setting name="minimumAttributeBundlesToDisplay">0</setting>
-          </settings>
-        </restriction>
-      </typeRestrictions>
-    </metadataElement>
-    <metadataElement code="rights" datatype="Text">
-      <labels>
-        <label locale="en_US">
-          <name>Rights</name>
-          <description>Information about rights held in and over the resource.</description>
-        </label>
-      </labels>
-      <documentationUrl>http://dublincore.org/documents/dcmi-terms/#terms-rights</documentationUrl>
-      <settings>
-        <setting name="fieldWidth">80</setting>
-        <setting name="fieldHeight">5</setting>
-        <setting name="minChars">1</setting>
-        <setting name="maxChars">65535</setting>
-      </settings>
-      <typeRestrictions>
-        <restriction code="r1">
-          <table>ca_objects</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">3</setting>
-          </settings>
-        </restriction>
-        <restriction code="r2">
-          <table>ca_occurrences</table>
-          <settings>
-            <setting name="minAttributesPerRow">1</setting>
-            <setting name="maxAttributesPerRow">3</setting>
           </settings>
         </restriction>
       </typeRestrictions>
@@ -1329,7 +1309,7 @@
                 </label>
               </labels>
               <settings>
-                <setting name="fieldWidth">70</setting>
+                <setting name="fieldWidth">90</setting>
                 <setting name="fieldHeight">2</setting>
               </settings>
             </metadataElement>
@@ -2160,8 +2140,8 @@
             <placement code="status">
               <bundle>status</bundle>
             </placement>
-            <placement code="licenses">
-              <bundle>licenses</bundle>
+            <placement code="ca_attribute_artwork_licenses">
+              <bundle>ca_attribute_artwork_licenses</bundle>
             </placement>
             <placement code="ca_attribute_internal_notes">
               <bundle>ca_attribute_internal_notes</bundle>
@@ -2178,9 +2158,6 @@
                 <setting name="restrict_to_types">asset</setting>
                 <setting name="label" locale="en_US">Related Asset</setting>
               </settings>
-            </placement>
-            <placement code="ca_attribute_rights">
-              <bundle>ca_attribute_rights</bundle>
             </placement>
             <placement code="ca_collections">
               <bundle>ca_collections</bundle>
