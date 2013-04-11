@@ -475,6 +475,14 @@
             </label>
           </labels>
         </item>
+        <item idno="coporate_body" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Corporate Body</name_singular>
+              <name_plural>Corporate Bodies</name_plural>
+            </label>
+          </labels>
+        </item>
       </items>
     </list>
  
