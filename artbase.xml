@@ -349,6 +349,22 @@
             </label>
           </labels>
         </item>
+        <item idno="archive" enabled="1" default="1">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Archive (zip, tar, etc)</name_singular>
+              <name_plural>Archive (zip, tar, etc)</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="bag" enabled="1" default="1">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Bag</name_singular>
+              <name_plural>Bag</name_plural>
+            </label>
+          </labels>
+        </item>
         <item idno="file" enabled="1" default="1">
           <labels>
             <label locale="en_US" preferred="1">
@@ -369,8 +385,24 @@
         <item idno="artist" enabled="1" default="1">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Asset Provenance</name_singular>
-              <name_plural>Asset Provenances</name_plural>
+              <name_singular>From Artist</name_singular>
+              <name_plural>From Artist</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="donor" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>From Donor</name_singular>
+              <name_plural>From Donor</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="forensic_recovery" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>From Forensic Recovery</name_singular>
+              <name_plural>From Forensic Recovery</name_plural>
             </label>
           </labels>
         </item>
@@ -512,7 +544,7 @@
         </item>
       </items>
     </list>
-  
+    
     <!-- occurence related lists -->
     <list code="occurrence_types" hierarchical="1" system="0" vocabulary="0">
       <labels>
@@ -2038,6 +2070,12 @@
             <restriction code="hardware" type="hardware"/>
           </typeRestrictions>
           <bundlePlacements>
+            <placement code="idno">
+              <bundle>idno</bundle>
+            </placement>
+            <placement code="access">
+              <bundle>access</bundle>
+            </placement>
             <placement code="preferred_labels">
               <bundle>preferred_labels</bundle>
               <settings>
@@ -2102,7 +2140,7 @@
              <placement code="asset_to_artwork_rel">
               <bundle>ca_objects</bundle>
               <settings>
-                <setting name="restrict_to_type">Artwork</setting>
+                <setting name="restrict_to_types">Artwork</setting>
                 <setting name="label" locale="en_US">Related Work</setting>
                 <setting name="add_label" locale="en_US">Add work</setting>
                 <setting name="restrict_to_relationship_types">part_of</setting>
@@ -2111,7 +2149,7 @@
            <placement code="asset_to_tech_rel">
               <bundle>ca_objects</bundle>
               <settings>
-                <setting name="restrict_to_type">tech</setting>
+                <setting name="restrict_to_typess">tech</setting>
                 <setting name="label" locale="en_US">Related Technologies</setting>
                 <setting name="add_label" locale="en_US">Add Technology</setting>
                 <setting name="restrict_to_relationship_types">related_tech</setting>
@@ -2163,7 +2201,7 @@
             <placement code="ca_objects">
               <bundle>ca_objects</bundle>
               <settings>
-                <setting name="restrict_to_types">asset</setting>
+                <setting name="restrict_to_typess">asset</setting>
                 <setting name="label" locale="en_US">Related Asset</setting>
               </settings>
             </placement>
@@ -2450,7 +2488,7 @@
               <bundle>ca_entities</bundle>
               <settings>
                 <setting name="label" locale="en_US">Collection Partner</setting>
-                <setting name="restrict_to_type">institution</setting>
+                <setting name="restrict_to_types">institution</setting>
                 <setting name="add_label" locale="en_US">Add partner</setting>
               </settings>
             </placement>
@@ -2466,7 +2504,7 @@
             <placement code="ca_objects">
               <bundle>ca_objects</bundle>
               <settings>
-                <setting name="restrict_to_type">Artwork</setting>
+                <setting name="restrict_to_types">Artwork</setting>
                 <setting name="label" locale="en_US">Works</setting>
                 <setting name="add_label" locale="en_US">Add Artwork</setting>
               </settings>
@@ -2608,7 +2646,7 @@
               <bundle>ca_entities</bundle>
               <settings>
                 <setting name="label" locale="en_US">Occured at</setting>
-                <setting name="restrict_to_type">institution</setting>
+                <setting name="restrict_to_types">institution</setting>
                 <setting name="add_label" locale="en_US">Add institution</setting>
               </settings>
             </placement>
@@ -2654,7 +2692,7 @@
               <bundle>ca_entities</bundle>
               <settings>
                 <setting name="label" locale="en_US">Related institution</setting>
-                <setting name="restrict_to_type">institution</setting>
+                <setting name="restrict_to_types">institution</setting>
                 <setting name="add_label" locale="en_US">Add institution</setting>
               </settings>
             </placement>
@@ -2698,7 +2736,11 @@
             <placement code="ca_objects">
               <bundle>ca_objects</bundle>
               <settings>
+                <setting name="restrict_to_types">Artwork</setting>
                 <setting name="label" locale="en_US">Artwork being treated</setting>
+                <setting name="restrict_to_relationship_types">treatment</setting>
+                <setting name="minAttributesPerRow">1</setting>
+                <setting name="maxAttributesPerRow">1</setting>
               </settings>
             </placement>
             <placement code="ca_attribute_dates">
@@ -2710,6 +2752,8 @@
             <placement code="conducted_by">
               <bundle>ca_entities</bundle>
               <settings>
+                <setting name="restrict_to_types">People</setting>
+                <setting name="restrict_to_relationship_types">preservation_event</setting>
                 <setting name="label" locale="en_US">Conducted by</setting>
               </settings>
             </placement>
@@ -2717,6 +2761,9 @@
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="label" locale="en_US">Target Asset</setting>
+                <setting name="restrict_to_types">asset</setting>
+                <setting name="restrict to_relationship_types">target_asset</setting>
+                <setting name="description" locale="en_US">Here, define what digital asset was the subject of the preservation event.</setting>
               </settings>
             </placement>
             <placement code="ca_attribute_pres_action_desc">
@@ -2728,6 +2775,8 @@
             <placement code="tool_used">
               <bundle>ca_objects</bundle>
               <settings>
+                <setting name="restrict_to_types">tech</setting>
+                <setting name="restrict_to_relationship_types">tool_used</setting>
                 <setting name="label" locale="en_US">Tool Used</setting>
               </settings>
             </placement>
@@ -2735,6 +2784,8 @@
               <bundle>ca_objects</bundle>
               <settings>
                 <setting name="label" locale="en_US">Resultant Asset</setting>
+                <setting name="restrict_to_types">asset</setting>
+                <setting name="restrict_to_relationship_types">resultant_asset</setting>
                 <setting name="description" locale="en_US">If the preservation event resulted in a new asset, create a relation to that asset here.</setting>
               </settings>
             </placement>
@@ -3176,6 +3227,38 @@
           <subTypeLeft> </subTypeLeft>
           <subTypeRight> </subTypeRight>
         </type>
+        <type code="treatment" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>is subject of preserveation event</typename>
+              <typename_reverse>is subject of preserveation event</typename_reverse>
+            </label>
+          </labels>
+        </type>
+        <type code="target_asset" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>has target asset</typename>
+              <typename_reverse>had as target asset</typename_reverse>
+            </label>
+          </labels>
+        </type>
+        <type code="resultant_asset" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>has resultant asset</typename>
+              <typename_reverse>had as resultant asset</typename_reverse>
+            </label>
+          </labels>
+        </type>
+        <type code="tool_used" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>Tool used in preservation event</typename>
+              <typename_reverse>Tool used in preservation event</typename_reverse>
+            </label>
+          </labels>
+        </type>
       </types>
     </relationshipTable>
     <relationshipTable name="ca_objects_x_objects">
@@ -3431,6 +3514,14 @@
     </relationshipTable>
     <relationshipTable name="ca_entities_x_occurrences">
       <types>
+        <type code="preservation_event" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>had as Conservator</typename>
+              <typename_reverse>had as Conservator</typename_reverse>
+            </label>
+          </labels>
+        </type>
         <type code="artist" default="1">
           <labels>
             <label locale="en_US">
