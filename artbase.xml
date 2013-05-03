@@ -203,40 +203,24 @@
         <item idno="1" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Ingest / Archival Processing</name_singular>
-              <name_plural>Ingest / Archival Processing</name_plural>
+              <name_singular>Have no materials</name_singular>
+              <name_plural>Have no materials</name_plural>
             </label>
           </labels>
         </item>
         <item idno="2" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Cataloging</name_singular>
-              <name_plural>Cataloging</name_plural>
+              <name_singular>Have basic materials</name_singular>
+              <name_plural>Have basic materials</name_plural>
             </label>
           </labels>
         </item>
         <item idno="3" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Needs approval</name_singular>
-              <name_plural>Needs approval</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="4" enabled="1" default="0">
-          <labels>
-            <label locale="en_US" preferred="1">
-              <name_singular>Approved</name_singular>
-              <name_plural>Approved</name_plural>
-            </label>
-          </labels>
-        </item>
-        <item idno="5" enabled="1" default="0">
-          <labels>
-            <label locale="en_US" preferred="1">
-              <name_singular>Needs repair</name_singular>
-              <name_plural>Need repairs</name_plural>
+              <name_singular>Have archival materials</name_singular>
+              <name_plural>Have archival materials</name_plural>
             </label>
           </labels>
         </item>
@@ -249,31 +233,39 @@
         </label>
       </labels>
       <items>
-        <item idno="All_Rights_Reserved" enabled="1" default="1">
+        <item idno="by_nc_sa" enabled="1" default="1">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>All Rights Reserved</name_singular>
-              <name_plural>All Rights Reserved</name_plural>
+              <name_singular>Creative Commons: Attribution-Noncommercial-Share Alike (by_nc_sa)</name_singular>
+              <name_plural>Creative Commons: Attribution-Noncommercial-Share Alike (by_nc_sa)</name_plural>
             </label>
           </labels>
         </item>
-        <item idno="CC_BY_ND" enabled="1" default="0">
+        <item idno="by_nc" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Creative Commons: Attribution - No Derivative Works (by-nd)</name_singular>
-              <name_plural>Creative Commons: Attribution - No Derivative Works (by-nd)</name_plural>
+              <name_singular>Creative Commons: Attribution-Noncommercial (by_nc)</name_singular>
+              <name_plural>Creative Commons: Attribution-Noncommercial (by_nc)</name_plural>
             </label>
           </labels>
         </item>
-        <item idno="CC_BY_SA" enabled="1" default="0">
+        <item idno="arr" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Creative Commons: Attribution - Share Alike (by-sa)</name_singular>
-              <name_plural>Creative Commons: Attribution - Share Alike (by-sa)</name_plural>
+              <name_singular>All Rights Reserved (arr)</name_singular>
+              <name_plural>All Rights Reserved (arr)</name_plural>
             </label>
           </labels>
         </item>
-        <item idno="CC_BY" enabled="1" default="0">
+        <item idno="by_nc_nd" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Creative Commons: Attribution-Noncommercial-No Derivative Works (by_nc_nd)</name_singular>
+              <name_plural>Creative Commons: Attribution-Noncommercial-No Derivative Works (by_nc_nd)</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="by" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
               <name_singular>Creative Commons: Attribution (by)</name_singular>
@@ -281,27 +273,51 @@
             </label>
           </labels>
         </item>
-        <item idno="by_nc_nd" enabled="1" default="0">
+        <item idno="by_sa" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Creative Commons: Attribution-Noncommercial-No Derivative Works (by-nc-nd)</name_singular>
-              <name_plural>Creative Commons: Attribution-Noncommercial-No Derivative Works (by-nc-nd)</name_plural>
+              <name_singular>Creative Commons: Attribution-Share Alike (by_sa)</name_singular>
+              <name_plural>Creative Commons: Attribution-Share Alike (by_sa)</name_plural>
             </label>
           </labels>
         </item>
-        <item idno="by_nc" enabled="1" default="0">
+        <item idno="by_nd" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Creative Commons: Attribution-Noncommercial (by-nc)</name_singular>
-              <name_plural>Creative Commons: Attribution-Noncommercial (by-nc)</name_plural>
+              <name_singular>Creative Commons: Attribution-No Derivative Works (by_nd)</name_singular>
+              <name_plural>Creative Commons: Attribution-No Derivative Works (by_nd)</name_plural>
             </label>
           </labels>
         </item>
-        <item idno="by_nc_sa" enabled="1" default="0">
+        <item idno="bsd" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Creative Commons: Attribution-Noncommercial-Share Alike (by-nc-sa)</name_singular>
-              <name_plural>Creative Commons: Attribution-Noncommercial-Share Alike (by-nc-sa)</name_plural>
+              <name_singular>BSD License (bsd)</name_singular>
+              <name_plural>BSD License (bsd)</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="CC0" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Public Domain (CC0)</name_singular>
+              <name_plural>Public Domain (CC0)</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="gpl" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Creative Commons: GNU GPL (gpl)</name_singular>
+              <name_plural>Creative Commons: GNU GPL (gpl)</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="lgpl" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Creative Commons: GNU LGP (lgpl)</name_singular>
+              <name_plural>Creative Commons: GNU LGP (lgpl)</name_plural>
             </label>
           </labels>
         </item>
@@ -314,24 +330,58 @@
         </label>
       </labels>
       <items>
-        <item idno="footnote" enabled="1" default="1">
+        <item idno="archive_URL" enabled="1" default="1">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Footnote</name_singular>
-              <name_plural>Footnotes</name_plural>
+              <name_singular>Archive URL</name_singular>
+              <name_plural>Archive URL</name_plural>
             </label>
           </labels>
         </item>
-        <item idno="primary_URL" enabled="1" default="0">
+        <item idno="outside_link" enabled="1" default="0">
           <labels>
-            <label locale="en_US" preferred="0">
-              <name_singular>Primary URL</name_singular>
-              <name_plural>Primary URLs</name_plural>
+            <label locale="en_US" preferred="1">
+              <name_singular>Outside Primary Link</name_singular>
+              <name_plural>Outside Primary Link</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="footnote" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Footnote</name_singular>
+              <name_plural>Footnote</name_plural>
             </label>
           </labels>
         </item>
       </items>
     </list>
+    <list code="link_status" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Link Status</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="live" enabled="1" default="1">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Live</name_singular>
+              <name_plural>Live</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="dead" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Dead</name_singular>
+              <name_plural>Dead</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+
     
     <!-- asset related lists -->
     <list code="asset_type" hierarchical="0" system="0" vocabulary="1">
@@ -987,7 +1037,7 @@
             <metadataElement code="ingest_date" datatype="DateRange">
               <labels>
                 <label locale="en_US">
-                  <name></name>
+                  <name>Ingest Date</name>
                 </label>
               </labels>
               <settings>
@@ -1024,7 +1074,7 @@
               </labels>
               <settings>
                 <setting name="fieldWidth">90</setting>
-                <setting name="fieldHeight">2</setting>
+                <setting name="fieldHeight">4</setting>
               </settings>
             </metadataElement>
           </elements>
@@ -1312,23 +1362,28 @@
           </labels>
           <settings/>
           <elements>
-            <metadataElement code="website_name" datatype="Text">
-              <labels>
-                <label locale="en_US">
-                  <name>Web site name</name>
-                </label>
-              </labels>
-              <settings>
-                <setting name="fieldWidth">70</setting>
-                <setting name="fieldHeight">2</setting>
-                <setting name="minChars">0</setting>
-                <setting name="maxChars">65535</setting>
-              </settings>
-            </metadataElement>
+            
             <metadataElement code="link_type" datatype="List" list="link_types">
               <labels>
                 <label locale="en_US">
                   <name>Link Type</name>
+                  <description>There are three link types: Archive URL, Outside Primary Link, and Footnote. Archive URLs are URLs hosted by Rhizome, and we will always ensure their longevity. "Outside Primary Link" reffers to links that are external, and are a link to a web based work itself. We obviously can not control the longevity of these links, but retaining these as a record is important. "Footnote" reffers to external links that are not links to the artwork itself, but rather simply related links and such.</description>
+                </label>
+              </labels>
+            </metadataElement>
+            <metadataElement code="link_status" datatype="List" list="link_status">
+              <labels>
+                <label locale="en_US">
+                  <name>Link Status</name>
+                  <description>Use this to record urls that have died.</description>
+                </label>
+              </labels>
+            </metadataElement>
+            <metadataElement code="dead_date" datatype="DateRange">
+              <labels>
+                <label locale="en_US">
+                  <name>Date expired</name>
+                  <description>If the link has expired, record the date that this was discovered.</description>
                 </label>
               </labels>
             </metadataElement>
@@ -1342,113 +1397,30 @@
           </labels>
           <settings/>
           <elements>
-            <metadataElement code="url_entry" datatype="Url">
+            <metadataElement code="website_name" datatype="Text">
               <labels>
                 <label locale="en_US">
-                  <name>URL</name>
+                  <name>Title</name>
+                  <description>An optional title for the link. This is mainly useful for footnote URLs.</description>
                 </label>
               </labels>
               <settings>
-                <setting name="fieldWidth">90</setting>
-                <setting name="fieldHeight">2</setting>
-              </settings>
-            </metadataElement>
-          </elements>
-        </metadataElement>
-      </elements>
-      <typeRestrictions>
-        <restriction code="ca_objects">
-          <table>ca_objects</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">1000</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="ca_entities">
-          <table>ca_entities</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">1000</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="ca_occurrences">
-          <table>ca_occurrences</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">1000</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="ca_places">
-          <table>ca_places</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">1000</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-        <restriction code="ca_collections">
-          <table>ca_collections</table>
-          <settings>
-            <setting name="minAttributesPerRow">0</setting>
-            <setting name="maxAttributesPerRow">1000</setting>
-            <setting name="minimumAttributeBundlesToDisplay">1</setting>
-          </settings>
-        </restriction>
-      </typeRestrictions>
-    </metadataElement>
-    <metadataElement code="footnote_url" datatype="Container">
-      <labels>
-        <label locale="en_US">
-          <name>External URL</name>
-        </label>
-      </labels>
-      <settings>
-        <setting name="doesNotTakeLocale">1</setting>
-      </settings>
-      <elements>
-        <metadataElement code="footnote_url_line1" datatype="Container">
-          <labels>
-            <label locale="en_US">
-              <name>Web site name</name>
-            </label>
-          </labels>
-          <settings/>
-          <elements>
-            <metadataElement code="footnote_url_source" datatype="Text">
-              <labels>
-                <label locale="en_US">
-                  <name>Web site name</name>
-                </label>
-              </labels>
-              <settings>
-                <setting name="fieldWidth">70</setting>
-                <setting name="fieldHeight">2</setting>
+                <setting name="fieldWidth">50</setting>
+                <setting name="fieldHeight">1</setting>
                 <setting name="minChars">0</setting>
                 <setting name="maxChars">65535</setting>
               </settings>
             </metadataElement>
-          </elements>
-        </metadataElement>
-        <metadataElement code="footnote_url_line2" datatype="Container">
-          <labels>
-            <label locale="en_US">
-              <name>URL</name>
-            </label>
-          </labels>
-          <settings/>
-          <elements>
-            <metadataElement code="footnote_url_entry" datatype="Url">
+            <metadataElement code="url_entry" datatype="Url">
               <labels>
                 <label locale="en_US">
                   <name>URL</name>
+                  <description>The URL value.</description>
                 </label>
               </labels>
               <settings>
-                <setting name="fieldWidth">70</setting>
-                <setting name="fieldHeight">2</setting>
+                <setting name="fieldWidth">50</setting>
+                <setting name="fieldHeight">1</setting>
               </settings>
             </metadataElement>
           </elements>
@@ -2131,8 +2103,8 @@
                 <setting name="label" locale="en_US">Identifier</setting>
               </settings>
             </placement>
-            <placement code="ca_attribute_asset_description">
-              <bundle>ca_attribute_asset_description</bundle>
+            <placement code="asset_label">
+              <bundle>preferred_labels</bundle>
             </placement>
             <placement code="ca_attribute_asset_location_and_type">
               <bundle>ca_attribute_asset_location_and_type</bundle>
@@ -2733,6 +2705,9 @@
             <restriction code="preservation_action" type="preservation_action"/>
           </typeRestrictions>
           <bundlePlacements>
+            <placement code="preferred_labels">
+              <bundle>preferred_labels</bundle>
+            </placement>
             <placement code="ca_objects">
               <bundle>ca_objects</bundle>
               <settings>
@@ -2762,7 +2737,7 @@
               <settings>
                 <setting name="label" locale="en_US">Target Asset</setting>
                 <setting name="restrict_to_types">asset</setting>
-                <setting name="restrict to_relationship_types">target_asset</setting>
+                <setting name="restrict_to_relationship_types">target_asset</setting>
                 <setting name="description" locale="en_US">Here, define what digital asset was the subject of the preservation event.</setting>
               </settings>
             </placement>
@@ -2824,6 +2799,11 @@
               <name>Relationships</name>
             </label>
           </labels>
+          <typeRestrictions>
+            <restriction code="exhibitions" type="exhibitions"/>
+            <restriction code="historic_event" type="historic_event"></restriction>
+            <restriction code="rhizome_event" type="rhizome_event"></restriction>
+          </typeRestrictions>
           <bundlePlacements>
             <placement code="ca_objects">
               <bundle>ca_objects</bundle>
@@ -2848,6 +2828,11 @@
               <name>Keywords</name>
             </label>
           </labels>
+          <typeRestrictions>
+            <restriction code="exhibitions" type="exhibitions"/>
+            <restriction code="historic_event" type="historic_event"></restriction>
+            <restriction code="rhizome_event" type="rhizome_event"></restriction>
+          </typeRestrictions>
           <bundlePlacements>
             <placement code="ca_list_items">
               <bundle>ca_list_items</bundle>
@@ -2860,6 +2845,11 @@
               <name>Links</name>
             </label>
           </labels>
+          <typeRestrictions>
+            <restriction code="exhibitions" type="exhibitions"/>
+            <restriction code="historic_event" type="historic_event"></restriction>
+            <restriction code="rhizome_event" type="rhizome_event"></restriction>
+          </typeRestrictions>
           <bundlePlacements>
             <placement code="ca_attribute_primary_url">
               <bundle>ca_attribute_primary_url</bundle>
@@ -3150,6 +3140,14 @@
                 <label locale="en_US">
                   <typename>Designer</typename>
                   <typename_reverse>Designer</typename_reverse>
+                </label>
+              </labels>
+            </type>
+            <type code="tech_dev" default="0">
+              <labels>
+                <label locale="en_US">
+                  <typename>Developer</typename>
+                  <typename_reverse>Developer</typename_reverse>
                 </label>
               </labels>
             </type>
