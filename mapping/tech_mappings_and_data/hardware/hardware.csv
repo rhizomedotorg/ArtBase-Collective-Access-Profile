@@ -1,0 +1,39 @@
+T849, Arduino 10, Hardware, Arduino, 10
+T850, Arduino 11, Hardware, Arduino, 11
+T851, Arduino Serial Arduino, Hardware, Arduino, Serial Arduino
+T852, Arduino Arduino Exterme, Hardware, Arduino, Arduino Exterme
+T853, Arduino Arduino Mini, Hardware, Arduino, Arduino Mini
+T854, Arduino Arduino Mini, Hardware, Arduino, Arduino Mini
+T855, Arduino Arduino Nano, Hardware, Arduino, Arduino Nano
+T856, Arduino LilyPad Arduino, Hardware, Arduino, LilyPad Arduino
+T857, Arduino Arduino NG, Hardware, Arduino, Arduino NG
+T858, Arduino Arduino NG plus, Hardware, Arduino, Arduino NG plus
+T859, Arduino Arduino Bluetooth, Hardware, Arduino, Arduino Bluetooth
+T860, Arduino Arduino Diecimila, Hardware, Arduino, Arduino Diecimila
+T861, BASIC Stamp Arduino Duemilanove, Hardware, BASIC Stamp, Arduino Duemilanove
+T862, BASIC Stamp Arduino Mega, Hardware, BASIC Stamp, Arduino Mega
+T863, BASIC Stamp 1 (BS1), Hardware, BASIC Stamp, 1 (BS1)
+T864, BASIC Stamp 2 (BS2), Hardware, BASIC Stamp, 2 (BS2)
+T865, BASIC Stamp BS2e, Hardware, BASIC Stamp, BS2e
+T866, BASIC Stamp BS2sx, Hardware, BASIC Stamp, BS2sx
+T867, BASIC Stamp BS2p24, Hardware, BASIC Stamp, BS2p24
+T868, BASIC Stamp BS2p40, Hardware, BASIC Stamp, BS2p40
+T869, BASIC Stamp BS2pe, Hardware, BASIC Stamp, BS2pe
+T870, BASIC Stamp BS2px, Hardware, BASIC Stamp, BS2px
+T871, PIC microcontroller Javelin Stamp, Hardware, PIC microcontroller, Javelin Stamp
+T872, PIC microcontroller Spin Stamp, Hardware, PIC microcontroller, Spin Stamp
+T873, PIC microcontroller PIC10, Hardware, PIC microcontroller, PIC10
+T874, PIC microcontroller PIC12, Hardware, PIC microcontroller, PIC12
+T875, PIC microcontroller PIC14, Hardware, PIC microcontroller, PIC14
+T876, PIC microcontroller PIC16, Hardware, PIC microcontroller, PIC16
+T877, PIC microcontroller PIC17, Hardware, PIC microcontroller, PIC17
+T878, PIC microcontroller PIC18, Hardware, PIC microcontroller, PIC18
+T879, PIC microcontroller PIC24F, Hardware, PIC microcontroller, PIC24F
+T880, PIC microcontroller PIC24H, Hardware, PIC microcontroller, PIC24H
+T881, PIC microcontroller PIC32, Hardware, PIC microcontroller, PIC32
+T882, ATmel AVR dsPIC30, Hardware, ATmel AVR, dsPIC30
+T883, ATmel AVR ds PIC33F, Hardware, ATmel AVR, ds PIC33F
+T884, ATmel AVR megaARV, Hardware, ATmel AVR, megaARV
+T885, ATmel AVR tinyARV, Hardware, ATmel AVR, tinyARV
+T886, ATmel AVR XMEGA, Hardware, ATmel AVR, XMEGA
+T895, Cell phone, Hardware, Cellphone, Cross-phone compatibleT

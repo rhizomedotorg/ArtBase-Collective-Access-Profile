@@ -1,0 +1,295 @@
+id,title,artist first name,artist last name,byline,description,creation date,URL,Location,license_slug,readme,created_date,collective,other_artists,tags
+54118, Indeterminate Hikes +,leila christine,nadir,ecoarttech | Leila Christine Nadir + Cary Peppermint,"IH+ is a iPhone/Android app that transforms everyday landscapes into sites of bio-cultural diversity and wild happenings. Generally devices of rapid communication and consumerism, smartphones are re-appropriated by IH+ as tools of environmental imagination and meditative wonder, renewing awareness of intertwining biological, cultural, and media ecologies and slowing us down at the same time. The app works by importing the rhetoric of wilderness into virtually any place accessible by Google Maps and encouraging its users to treat these locales as spaces worthy of the attention accorded to sublime landscapes, such as canyons and gorges. iPhone/Android app that transforms everyday landscapes into sites of bio-cultural diversity and wild happenings.     ",2012-03-19 16:15:57,http://ecoarttech.org/projects/indeterminate-hike,,by_nc_sa,,2012-03-19 16:16:48,ecoarttech,,
+3398,"""RhythmEngine""",Hidenori,Watanave,hidenori watanave,"""RhythmEngine"" (REg) is a spatial communication/session tool with ""Music"" and ""visual effects"" which work over the network. The new tool, ""REg"" proposes an ideal way of new un-simultaneous communication in contrast to the current web-world where mainly ""exchanging words"" on "" real time"" is becoming more prevalent. The world of web used to be based on un-simultaneous communication, like e-mail communication, which indicates its method. Broad-band-ization in recent years tends to promote the pursuit of simultaneous (Real-time) connection. The communication tool is switching from the e-mail to messenger. Nevertheless, it is clear that no matter how rigorously real-time communication is pursued, the delay never becomes zero. A circumstance which begs the question, is there even a significant difference between the ""delay"" of 2 milli-seconds and that of 1 milli-second? 
+
+In Japan, we discover or attach stories to the trees, shrubs, the roadside stones and so on in order to recall or visualize the past, and also to leave our sentiments for to someone in the future to discover it. Our culture, which uses ""the material such as stones"" as a catalyst to tell ""the sentimental emotion"" at interval of times, has been cultivated from ancient times. Encounters of the human and conversations can occur within the heart even across time and place. 
+
+The endless pursuit of convenience generates the risk of producing a savage world. We now should re-consider the potential of the web, which gives us the connection with others and succession of emotion even over time and location. 
+
+Moreover, looking back in the history of communication, message only could tell by verbal, songs or gesture at ancient times and the message exceeds times and generation with this way. Development of the printing technology made carving messages on material possible. However, on the other hand, we wonder if the rich expressiveness and emotional feeling from ""sound"" and ""gesture"" are not impaired. 
+
+Through the ""RhythmEngine,"" we suggest, ""the session which is inherited from the past to the future using place as an agent"" and ""music and image communication which has rich emotion"" to the Web-world. 
+",2002-03-16 00:00:00,http://www.photon01.co.jp/reg/,http://archive.rhizome.org/artbase/3398/reg/index.html,by_nc_sa,"New Keywords from user: Rhythm
+Date created: 2002-03-16
+Date cloned: 2013-03-21
+
+check if this can still operate --AD",2002-03-16 00:00:00,,,"3D, audio, Collaborative, digital, download, game, Generative, Hidenori Watanave, interface, Internet, Japan, Jingumae, memory, Participatory, RhythmEngine, Shibuya, Shockwave, Spatial Session Tool, tactical, Team Photon, tokio, Visual"
+22040,"""Trails #1 #2""",Edward,Tang,Edward Tang,"What do we look like online? Using a technique called ""3D Video Sculpture,"" this interactive work uses a webcam to capture the viewer's image in real time and maps it out temporally and sculpturally in an onscreen 3D cube. Network lag imposed ""trails"" of presence appear and disappear by the viewer's movement breaking through the fog of network noise as the data flows away into the ether. This software was programmed in Windows C++ using OpenGL and Quicktime.",2003-12-08 00:00:00,http://www.antiexperience.com/edtang/works/trailz.html,http://archive.rhizome.org/artbase/22040/works/trailz.html,by_nc_sa,"New Keywords from user: web cam
+Date created: 2003-12-08
+Date cloned: 2013-02-14",2003-12-08 00:00:00,,,"3D, body, Conceptual, disappearance, identity, installation, interact, Javascript, live, offline, Participatory, QuickTime, social space, software, trails, Trails #1, Trails #1 & #2, Trails #2, video"
+53478,Bandwidth,Josh,Nimoy,jtnimoy,"This interactive musical experience provides six original modes in which the player may produce music. Elements from the language of games are appropriated into a medley of six musical instruments between which the player can switch while exploring the piece. The software is written using OpenFrameworks, and the source code is made available on github under the creative commons license. Advanced configuration is possible by editing the contents of the bundled settings.yml. By changing the values of that file, you can control the window properties, startup behavior, user interface detail, and OSC network parameters. When set up on multiple machines, Bandwidth's 'grid' mode will broadcast OSC messages and most other modes will receive. This synaesthetic, interactive musical experience provides six original modes in which the player may produce music. Kick off your shoes and get lost in a world of delicious sounding abstract geometry.",2011-10-22 04:02:33,http://jtnimoy.net/?q=184,,by_nc_sa,"  BANDWIDTH - a musical experience.
+  jtnimoy,2011
+  
+  INSTRUCTIONS
+  Turn up your sound volume.
+  Click and drag to explore.
+  Press bubbles to change scenes.
+  Press Escape to quit.
+  
+  
+  Made possible by The Public. UK
+
+  Special Thanks:
+
+  The OpenFrameworks project,
+  Graham Peet
+  Joss Widdowson
+  Rebecca Shostak
+  the oooShiny group
+  Sandwell Arts Trust
+  Fran McHugh  
+  
+  Visit http://jtnimoy.net
+
+
+----------------------------------------------------
+
+CONFIGURING
+
+  There is a configuration file called settings.yml in the data folder, which
+  allows the app to be configured for installation and performance purposes.
+  Open that file to read the comments provided above each value.
+
+----------------------------------------------------
+
+
+COMPILING
+
+  Get the source from
+    https://github.com/jtnimoy/Bandwidth
+
+  Install OpenFrameworks PreRelease v007
+
+  Create an empty project and add the contents of the src folder to it.
+  Add the contents of the 'data' folder to the project's data folder.
+
+  Getting the project to compile is a matter of downloading and compiling the 2 dependencies:
+
+    Box2D 2.2.0
+      and
+    yaml-cpp 1.2.7
+
+
+Appended Tech Details
+=====================
+
+OpenFrameworks using C++. I added the Box2D and Yaml-Cpp libraries as well.",2011-10-22 04:02:33,,,"interactive, sound, synaesthesia, instrument, toy, software art"
+55129,Beyond the Human-Human Divide,Sterling,Crispin,Sterling Crispin,"What does it mean to move “Beyond the Human-Human Divide”? It seems at once an approach toward the threshold of the subject-object paradigm, the evolution from human to post-human, and a kind of spiritual transcendence. Is this space beyond the divide something that was once an individual pursuit that we’re now collectively reaching toward? Or perhaps in defining this divide we’re simply acknowledging that which is forever beyond our reach.
+
+To define a threshold is to cross it in your mind. Yet we experience this kind of boundary only by progressively reaching toward it. How does one begin to know when this boarder has been crossed, what are the signs and signals that will call out to us? Will it be a thunderous clap sent down from the heavens or a series of soft whispers emerging from all around us?
+
+Perhaps this kind of a horizon is like a black hole, which carries an exponential rate of resistance forever holding those who approach it at a distance. New boundaries are continually redefined in order to satisfy our desire, our will to power.
+
+My work orbiting this exhibition is provisional, temporary and temporal. It is an action still in its becoming, a snapshot from an emergent behavior seeking to generate new forms. It is an exchange, not an end. When a gesture has magnitude without a direction, it exists as a blind-probe in the world, full of potential waiting to be tipped in one direction or another. All behavior in the world is uncertain, containing near infinite potential. At decisive moments, thresholds, this behavior must crystalize and become determinant of one choice or another.
+
+This seeking without expectation seems to be necessary if one is to cross the divide. In this spirit of emergence and becoming, I looked toward agent-based computer simulation. This programming method involves simulating a number of simplistic behavioral rules for autonomous entities in a virtual environment which then generate intelligent motion and higher forms of emergent complexity.
+
+Using this simulation technique I filled a virtual space with the skeletal and subdermal structures of the human body and instructed a series of agents to determine what were the most interesting locations within this human form. As these curious entities explored the human body I recorded their location at even intervals of time. This exploration was very much a blind probe as I mentioned earlier, as these agents are unaware of the contextual information contained within the human form. They do not know the larger systems and meaning present, they operate at basic behavioral level like single cell organisms seeking food.
+
+Over time this cloud of points captured began to reform a new kind of human form in a moment of becoming, or perhaps a cloud of energy emanating from a body in motion. This cloud was then algorithmically reconstructed into a solid form, a new body. But this new body with its limb like shapes lacks the knowledge of how to move about, or where it came from. Although this body appears a shattered and torn human in the midst of violence, its more of a snapshot from the mind of a digital system struggling to understand what it is to be human.",2012-08-23 17:19:57,http://www.sterlingcrispin.com/beyond-the-human-human-divide/,,arr,,2012-07-01 14:21:38,,,"gif,jpg"
+5150,CRASH RUN,Kiran,Subbaiah,Luddite (pseudonymous member of Sitespecifics),"CRASH RUN is an amusing simulator of system and interface crashing that reminds us of those horrifying moments when we helplessly watch our beloved hard-disc going mad. In this piece Kiran Subbaiah uses screensavers, desktop utilities and prank programmes to make the user believe that his/her system is in the process of no return and creates moments of surprise when he/she instinctively tries to intervene into the collapse by interacting. CRASH RUN is a critique on the perception of interface as a flat entity.
+
+-Natasa Petresin
+
+SYSTEM REQUIREMENTS: Windows operating system (Win 32). 
+
+IMPORTANT: Close all applications before launching CRASH RUN. 
+",2002-06-22 00:00:00,http://www.geocities.com/sitespecifics/crash_run/crashrun_intro.html,http://archive.rhizome.org/artbase/5150/crashrun/crashrun.htm,by_nc_sa,Date created: 2002-06-22,2002-06-22 00:00:00,,,"CD-ROM, collider, disappearance, download, Flash, interact, interface, Java, Javascript, Kiran Subbaiah, machine, offline, Participatory, Readymade, Rijksakademie, security, software, underground, Visual"
+54461,Digital: A Love Story,,,Christine Love,"A love story set five minutes into the future of 1988, told through an interactive simulation of an Amiga Workbench. The story unfolds through the protagonist's interactions on a Bulletin Board System (BBS). This work is not only an immersive work of fiction, but effectively documents a first-person perspective of communication, relationships, and exploration as they existed within the BBS world.",2012-05-29 13:31:03,http://scoutshonour.com/digital/,http://archive.rhizome.org/artbase/54461/scoutshonour.com/digital,arr,,2010-01-01 00:00:00,,,"BBS, biography, community, History, Hypertext, Interactive art, interface, memory, Narrative, software"
+53701,ExtraFile,Kim,Asendorf,Kim Asendorf,"As a way of rejecting the limitations and bias of commercial image formats, Asendorf has created a suite of new image formats specifically tailored to the ideals and aesthetics of digital artists and glitch practices. All started with the idea of inventing a new image file format, a format as a piece of art. Far away from the mainstream and commercial standards. Just to express the feeling of using and saving data in a new, fictitious or artificial way. Getting the filename extension into the scope of the artwork itself. In simple terms: Creating an exclusivity. The freedom not to have to pay attention to the file size or the loading and saving times provides the option to implement artistically byte orders, odd quality behaviors and visual designed formats. ExtraFile is breaking the rules of commercial formats like JPG, PNG or TIFF. It is a pioneer art project in storing image data. The process and the resulting bytes, regardless of content, become the artwork itself.",2011-12-09 14:35:13,http://extrafile.org/,,arr,,2011-12-09 14:35:13,,,"digital, glitch, Modification, software"
+53751,Good Listeners,Mushon,Zer-Aviv,Mushon Zer-Aviv,"A spiritual browser plugin visualizing the (forced) confessions obtained by divine web trackers We're Open Source
+
+While the lord may be hidden from us his guidance and his code are as transparent and clear as the sunshine. Peak under the robes of our CrossRider powered browser extension and see whether the good priest is indeed holding a cross and it's not because he's just happy to see you. The code is released under the MIT open source license which means you are welcomed to run, copy, distribute, study, change and improve the software.
+
+As for our privacy policy, we do not collect or use your data in any way other than to serve & update the plugin and we are working hard to optimize it so that eventually no network calls will be made on its behalf.
+
+If you run into issues you can report them here or better, if you write an improvement patch, we'd love to welcome you and your code into the lord's tent.
+Fork us on Github: https://github.com/zohararad/Good-Listeners",2012-01-01 17:25:47,http://mushon.com/gl/,,by,"
+
+Appended Tech Details
+=====================
+
+html, css, js, chrome extension, text to speech",2011-11-16 17:25:47,,,"browser extension, visualization"
+52176,Kriegspiel,Alexander,Galloway,RSG,"In January 1977, the French Situationist Guy Debord founded the company ""Strategic and Historical Games."" This company had an immediate goal: to produce the ""Kriegspiel,"" a ""game of war"" that Debord had already designed in his head years before. Inspired by the military theory of Carl von Clausewitz and the European campaigns of Napoleon, Debord's game is a chess-variant played by two opposing players. The RSG computer game ""Kriegspiel"" is an attempt to reinterpret Debord's ideas in the contemporary landscape, while maintaining a fidelity to his original thinking. ""The surprises of this Kriegspiel seem to be inexhaustible,"" Guy Debord confessed in his book Panegyric. ""I fear it could be the only one of my works that anyone will dare to recognize as having some value.""
+
+With the assistance of his benefactor Gérard Lebovici, Debord produced the game in a limited edition during the summer of 1977. ""I insist on the opportunity to throw the Kriegspiel into the stunned world as soon as we can,"" wrote Debord to Lebovici early in 1978. ""The cinema seems to me to be over. [...] I believe that these times don't deserve a filmmaker like me."" The edition included an 18 by 14 1/4 inch game board and player tokens fabricated in silver-plated copper by the ""intrepid"" Mr. Raoult, a Parisian artisan whom Debord admired and trusted implicitly. By the end of June, 1978, after delays due to poor health, Debord finished drafting a written copy of the game rules. ""I am sending you the rules soon,"" he wrote to Lebovici. ""The juridico-geometric writing style has cost me innumerable headaches.""
+
+Ten years later in 1987, the game was mass-produced on cardboard with wood tiles. That year Debord and his wife Alice Becker-Ho published a book on the game, Le Jeu de la Guerre : Relevé des positions successives de toutes les forces au cours d'une partie, which was translated into English for the first time in 2007. The book is an annotated documentation of game play and includes appendices containing the game rules and strategy tips.
+
+In his letters Debord referred to the game as the ""Kriegspiel,"" borrowing the German term meaning ""war game."" When the game was fabricated and released in France, Debord officially titled it ""Le Jeu de la guerre."" Since the phrasing ""The Game of War"" is slightly awkward in English, we opted to title the RSG game using the original word favored by Debord: Kriegspiel.
+
+Debord fashioned the game as a tool for learning strategic thought in the face of real antagonists. Hence the computer edition is played online against a single opponent. There is no single-player mode.
+
+In Debord's view the game represents the totality of factors at play in wartime maneuvers, what he called ""the dialectic of all conflicts."" 
+
+The RSG computer game ""Kriegspiel"" is an attempt to reinterpret Debord's ideas in the contemporary landscape, while maintaining a fidelity to his original thinking.
+",2011-02-09 09:32:46,http://r-s-g.org/kriegspiel/,,by_nc_sa,,2008-02-22 12:00:00,RSG,,"game, war, Debord, strategy, chess, kriegspiel, Situationist"
+1705,Netomat,Maciej,Wisniewski,32,"Fly through the internet with this artist-made browser. Surf the web for specific pieces of information. Customize the browser to your personal needs. netomat(TM) is a meta-browser that engages a different Internet - an Internet that is an intelligent application and not simply a large database of static files. netomat(TM) dialogues with the net to retrieve information as unmediated  and independent in form. It is a browser only by convention.
+
+Our current point-and-click navigation, rigid information distribution, and passive browsing of ""authored"" information in today's interactivity will be of little use when using netomat(TM). With netomat(TM), the user has a dialogue with the Internet. You can ask the net a question using natural language. netomat(TM) responds by flowing text, images and audio from the net to your screen. You respond or ask further questions or write keywords and the flow of data to your desktop is altered in response. The data is not constrained by a web page or site but free floating and independent.
+
+ 
+netomat(TM) can retrieve almost all types of data that resides on the Internet, including RealAudio, jpegs, gifs, aiff, wav, html, xml and plain text. netomat(TM) dialogues with you as well. It memorizes your session to further enable your search and exploration of the Internet.
+
+netomat's structure is modular and adaptable. netomat(TM) is more accurately described as a platform for spawning countless browser interfaces that you or anyone can create! Instructions for creating browser interfaces are known as netomatic. When netomat(TM) is started it builds a browser interface and  functionality on the fly by retrieving components and instructions for combining components from the net. The netomatic is the set of instructions that are written in a simple and very natural language known as, netomatics or nml (netomatic markup language). Eventually, netomat's meta-browser components will be available as open source software to be written by anyone who wishes to. As you can imagine, the potential is enormous for a countless number of browser interfaces to be created with a rich diversity of open source produced functionality written by a vast community of users. The Internet is clearly different with the launch of netomat!
+
+ In today's world of internet browsers,  netomat(TM) has the feel of an anti-browser. netomat(TM) eschews the anachronistic page structure of today's web by not privileging layout and design. It atomizes text, images and audio loosening them from web sites and web pages. This allows the data to be recombined or viewed independently in a context determined by you.
+
+netomat(TM) dynamically spawns multiple browser interfaces and functionality created openly and by many. The success of netomat(TM) relies on an active and distributed use by communities of Internet users.  netomat(TM) is about engaging the internet differently, much like the way it was originally intended and much further than currently envisioned.
+
+netomat(TM) is freely distributed on a network of web sites that are also available to host netomatic files written by its users. 
+
+Ron Wakkary, june 1999 
+
+http://www.netomat.net",2001-08-19 20:25:34,http://archive.rhizome.org/artbase/1705,http://archive.rhizome.org/artbase/1705,by_nc_sa,Inventory notes: 2011-06-14 (ellen) Domain name has been sold. Need to contact artist.,2001-08-19 20:25:34,,,"browser, collider, download, HTML, information map, interface, Internet, Java, Netomat, Visual"
+1745,OSS,Comment by Comment by Comment ,,JODI,".................-TTTTTTTTCCCCCCCCSCCCCCSCCSSSSSS..---------T-TTTTTTTTTTTTTT
+TTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-
+--------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTT
+CCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---
+------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCC
+CCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-----
+----T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCC
+CCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-------
+--T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCC
+CCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------
+T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCC
+CCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS.............
+.....-TTTTTTTTCCCCCCCCSCCCCCSCCSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCC
+CCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TT
+TTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCC
+SSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTT
+TTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSS
+SSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTT
+TTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSS
+SSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTT
+TTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSS
+SSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTT
+TTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSS
+S..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..................-TTTTTT
+TTCCCCCCCCSCCCCCSCCSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS.
+.---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTT
+TTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-
+--------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTT
+CCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---
+------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCC
+CCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-----
+----T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCC
+CCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-------
+--T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCC
+CCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------
+T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..................-TTTTTTTTCCCCCCCCSC
+CCCCSCCSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-
+TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCC
+CCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TT
+TTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCC
+SSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTT
+TTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSS
+SSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTT
+TTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSS
+SSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTT
+TTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSS
+SSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTT
+TTTTTTCCCCCCCCCCCCSSSSSSSSS..................-TTTTTTTTCCCCCCCCSCCCCCSCCSSSSS
+S..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTT
+TTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS.
+.---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTT
+TTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-
+--------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTT
+CCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---
+------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCC
+CCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-----
+----T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCC
+CCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..-------
+--T-TTTTTTTTTTTTTTTTCCCCCCCCCCCCSSSSSSSSS..---------T-TTTTTTTTTTTTTTTTCCCCCC
+CCCCCCSSSSSSSSS. OSS mimics a computer operating system, but in horrible disarray. Let it hijack your computer. Images and shapes take over the screen.",2000-07-28 00:00:00,http://oss.jodi.org/,,by_nc_sa,,2000-07-28 00:00:00,JODI,,"CD-ROM, download, Formalist, HTML, interface, OSS, resistance, Text, Visual"
+54593,ppt.xxx,Antoni,Kaniowski,Antoni Kaniowski,"The system will add noise to signal and try to visually undermine slideshows as the standart for sharing knowledge in corporate and education areas. The work consists of a piece of software and a website. The software is written in Ruby and interfaces with Microsoft PowerPoint directly. The exported images are converted to .gif .bmp .jpg or .xpm file format by ImageMagick. The files are re-opened by the script and altered on a binary level. The script directs ImageMagick to assemble the unaltered and altered images as two separate mosaics of slides. The web-archive serves as a documentation of the process. It displays each auto-generated mosaic and links to the source file, and the auto-created 'destroyed' presentation. The web-archive can be treated as a documentation of the process or a collection of images that bear some resemblance to the presentation archetype. Adding noise to the signal will, on one level, produce new visuals. On another level, it will try to visually undermine slideshows as the standart for sharing knowledge in corporate and education areas. A set of tools for automated corruption of Microsoft PowerPoint slideshows designed to systematically pollute the web with unuseable copies of the original slideshow. A series of scripts written in Ruby scrapes Google for slideshows, extracts slides as images (as jpg, png, bmp, xpm, gif) and manipulates the image so as to produce a glitched slide. The slides are then assembled back into one file and uploaded to a public file hosting website. ",2012-06-11 17:22:56,http://kaniowski.info/ppt_xxx/,,arr,"
+
+Appended Tech Details
+=====================
+
+The software is written in Ruby and interfaces with Microsoft PowerPoint directly. The exported images are converted to .gif .bmp .jpg or .xpm file format by ImageMagick. The files are re-opened by the script and altered on a binary level. The script directs ImageMagick to assemble the unaltered and altered images as two separate mosaics of slides.",2012-06-10 12:00:00,,,"powerpoint, slides, software, ruby, glitch, script, spider, slideshow"
+46852,Real Costs,Michael,Mandiberg,Michael Mandiberg,"""Real Costs"" is a Firefox plug-in that inserts emissions data into travel related e-commerce websites. The first version adds CO2 emissions information to airplane ticket websites. It tells you how much carbon each flight will produce. Following versions will work with car directions, car rental, and shipping websites. Think of it like the nutritional information labeling on the back of food... except for emissions. The objective of the ""Real Costs"" is to increase awareness of the environmental impact of certain day-to-day choices in the life of the Internet user. By presenting this environmental impact information in the place where decisions are being made, it will hopefully create an impact on the viewer, encourage a sense of individual agency, and provide a set of alternatives and immediate actions. In the process the user/viewer might even be transformed from passive consumer to engaged citizen. ""Real Costs"" is a Firefox plug-in that inserts emissions data into travel related e-commerce websites. The objective is to increase awareness of the environmental impact of choices in the life of the Internet user. By presenting this information in the place where decisions are being made, it will hopefully create an impact on the viewer, encourage a sense of individual agency, and provide a set of alternatives and immediate actions.",2007-05-01 00:00:00,http://TheRealCosts.com/,,by_nc_sa,Date created: 2007-05-01,2007-01-01 00:00:00,,,"browser, environment, Firefox, globalization, Greasemonkey, Michael Mandiberg, nature, Oil Standard, plug-in, responsibility, sustainability, tactical media, utopia"
+3003,SILENCE,Olga,Kisseleva,Olga Kisseleva,new media like a new utopia of communication,2002-01-11 10:22:35,http://archive.rhizome.org/artbase/3003/silence.zip,http://archive.rhizome.org/artbase/3003/silence.zip,by_nc_sa,"New Keywords from user: communication
+Date created: 2000",2002-01-11 10:22:35,,,"Animation, Conceptual, contextual, Flash, france, game, globalization, interact, language, Montpellier, Musee d'Art Moderne, Narrative, Olga Kisseleva, Panoplie, panoplie.org, Paris, Participatory, Russia, silence, St Petesburg, State Russian Museum"
+28089,SWAP,Paul,Harter,Paul Harter,"""Henceforth space by itself, and time by itself, are doomed to fade away into mere shadows, and only a kind of union of the two will preserve an independent reality.""
+
+Herman Minkowski 1903
+
+Einstein's maths teacher first proposed the idea of space-time, a unified four dimensional model in which space and time were not separate elements but were made of the same stuff. SWAP swaps one spatial dimension with that of time, cutting through the space-time continuum like a knife through a cabbage, revealing the intricate internal structure.
+
+SWAP is a PC application designed to work with PAL/NTSC DV cameras. Connect the camera to an IEEE 1394 port and press the ""start"" button. You will get just a black screen for the first 15 seconds while it processes the first images. It is a demanding application and I suggest you use a PC with 512MB+ RAM and a 1GHz+ processor.
+
+SWAP comes in a small (138KB) zip file containing an exe and a dll file. When you run the exe SWAP will execute without installing anything on your computer or making any changes to your registry. You will need to have DirectX 8.1b or later for it to work.
+
+I hope you enjoy it.
+
+You may freely use, copy and distribute SWAP as long as you don't charge for it in any way or alter it. If you have any questions or comments I'd be pleased to hear from you.
+
+Paul Harter - paul@glowinthedark.co.uk",2004-07-01 00:00:00,http://archive.rhizome.org/artbase/28089/swap.zip,http://archive.rhizome.org/artbase/28089/swap.zip,by_nc_sa,Date created: 2004-07-01,2004-07-01 00:00:00,,,"Abstract, body, Conceptual, download, Herman Minkowski, interact, Participatory, software, space, video"
+54585,The Internet for Left-Handers©,Silvio,Lorusso,Silvio Lorusso,The Internet for Left-Handers© is a Chrome plugin that makes the Internet left-friendly.,2012-06-09 11:04:17,http://www.silviolorusso.com/theinternet4left-handers/,,by_nc_sa,,2012-06-08 12:00:00,,,"plugin, chrome, extension, interface, icon, cursor"
+49840,The Virtual Public Art Project,Christopher,Manzione,Christopher Manzione,"The Virtual Public Art Project is an Augmented Reality platform for the public display of digital works of art. VPAP is the first mobile AR outdoor art experience ever, and maximizes public reception of AR art through compatibility with both iPhone 3GS and Android phones!
+Unlike current AR smart phone utilities that enable users to view a location with an additional layer of information about that location - i.e. information about a restaurant, VPAP creates site-specific sculptures at a location that invite viewers in for close observation from all sides and from multiple perspectives.
+
+Now spanning five continents with twenty-eight locations.
+
+Augmented Reality and Public Art
+Augmented reality is a view of the physical real-world environment merged with virtual computer-generated imagery in real-time. VPAP merges the real-world physical environment of public spaces around the world with site-specific virtual sculptures that can only be viewed in-the-round using the iPhone 3GS and Android phones when one is at the sculpture's real-world location.
+
+www.virtualpublicartproject.com
+
+",2010-03-15 00:00:00,http://virtualpublicartproject.com/,,by_nc_sa,"
+
+Appended Tech Details
+=====================
+
+The Virtual Public Art Project is hosted and viewed through the application Layar. Within this app is VPAP's own channel.
+
+The virtual models are created on within many different 3D modeling softwares, ranging from Cinema 4D, Maya, Sketch up, etc.",2010-03-15 00:00:00,,,"Augmented Reality, Artistic collaboration, Interactive art, Internet, IPhone, Android Phones, Mobile Device Art, App, Technology, Virtual reality, GPS, Site specific"
+55316,TwiLight,Dragan,Espenschied,"Alvar Freude, Peter Scheerer, Dragan Espenschied ","TwiLight was a screensaver for ATARI TOS, developed from 1991 to 1997. Several modules were released throughout the years, including Bat-O-Phants, North Sea 2000, Penguin Party, Ballonx, Butterflies, The Insane Cook, and Five Mutants. All graphics and animations were created between 1991 and 1993 using Degas Elite and Cyberpaint II on an ATARI ST, with no more than 16 colors. The software works on any ATARI TOS compatible system, including but not limited to: TOS itself, MagiC, MagiC Mac, MagiC PC, MultiTOS, Geneva, and MultiGEM.",2012-10-09 10:52:50,http://1x-upon.com/~despens/twilight/,http://archive.rhizome.org/artbase/55316/1x-upon.com/~despens/twilight/,by_nc_sa,,1991-01-01 00:00:00,,,"screen saver, pixel art, graphics, German, freeware"
+1694,Web Stalker,matthew,fuller,Matthew Fuller,"Experience the world's first internet browser made by artists. Surf the web from the inside out. Perhaps best described as a Lynx browser crossed with a Ven Diagram, Web Stalker is based on the belief that the user should be able to define the different functions they want to apply to a Web document, rather being than launched through a finished Web site. I/O/D's work from 1994 onwards is a series of downloadable 'issues'.
+
+These range from a series of collaborations with artists and writers (I/O/D 1-3>) to I/O/D 4: The Web Stalker (1997)- a web-access application. 
+
+I/O/D's work involves a speculative take on the production of interface. 
+
+Software is mind control - get some.
+",2001-08-19 19:54:09,http://www.backspace.org/iod,http://archive.rhizome.org/artbase/1694/index.html,by_nc_sa,,2001-08-19 19:54:09,,,"download, Formalist, HTML, information map, interface, tactical, underground, Visual, Web Stalker"
+31934,Whispers of Electronic You,Ian,Wojtowicz,Ian Wojtowicz,This work is a kind of a mirror.,2005-04-14 13:12:52,http://archive.rhizome.org/artbase/31934/,http://archive.rhizome.org/artbase/31934/,by_nc_sa,"New Keywords from user: self,reflection
+Date created: 2004-03",2005-04-14 13:12:52,,,"archive, audio, Collaborative, Database, Documentary, download, email, Generative, historical, Ian Wojtowicz, identity, Java, language, memory, nostalgia, privacy, software, surveillance, Text, Your PC"
+54362,Yard Sale in the Sky,Kristin,Lucas,Kristin Lucas,"Yard Sale in the Sky is an art project that borrows from the structure and function of a community yard sale. Ideas for ""virtual"" yard sale items are proposed and brought to life as 3D models by local digital artists and designers. The objects at this yard sale are not from the attic and basement, but are the digitally rendered products of Augmented Reality (AG). Using a free phone app called Layars, shoppers can see the virtual yard sale items on their iPhones, iPads, and Androids when passing through each object’s programmed longitudinal/latitudinal location. Cats, chairs, surveillance cameras, charms with special powers, etc. seem to float in mid-air thanks to geolocation technology!
+
+Once a bargain hunter finds an object he or she wants - and, according to the artist, the objects are ""priced to move!"", the customer purchases it directly from Lucas and yard sale attendants who oversee the event much like a neighborhood yard sale is monitored by homeowners. In exchange for cold, hard cash, Lucas agrees to relocate the virtual object to a buyer's exact location. These objects, like invited phantasms, then take up residence with their new owner. Part scavenger hunt, part collaborative enterprise, Lucas's investigation of traditional commercial exchange using virtual objects is an event that is at once familiar and foreign. It is grounded in a collective experience of the yard sale, but floats in and out of sight via a technological sensory organ, the phone.
+
+The first iteration of Yard Sale in the Sky appeared on the elevated platform of Chelsea's High Line Park in New York on May 14, 2011, programmed as an off-site event for ""Gradually Melt the Sky"", an the augmented reality group exhibition at Devotion Gallery in Brooklyn. Participating artists included Peggy Ahwesh, Cecilia Dougherty, Eteam, Sue Havens, Joe McKay, Alisdair MacRae, Robert de Saint Phalle, and Penelope Umbrico. 
+
+With support from Art Alliance Austin and Fusebox Festival, Yard Sale in the Sky expanded into a two-day event that took place over the weekend of April 28 & 29, 2012 in the Parking lot of Jo's Coffee in Austin, TX. Participating artists and designers included Melanie Clemmons, Stephen H Fishman, Zak Loyd, Saul Jerome E San Juan, and Casey Smith. Yard Sale in the Sky is an augmented reality art project that borrows from the structure and function of a community yard sale.",2012-05-12 10:12:19,http://www.yardsaleinthesky.com/,,arr,"
+
+Appended Tech Details
+=====================
+
+Augmented Reality (AR) using Hoppala Agumentation and Layar; 3D modeling programs SketchUp, Blender, Cinema4d, and Maya.",2012-05-12 10:13:24,,,"augmented reality, AR, 3D, live art, interactive, network art, performance"
+2310,[phage] (downloadable app for the PC),mary,flanagan,mary flanagan,"Phage is a PC based application that transforms a hard drive's data into a  graphical and textual interface obscuring the expected presentation of information. [phage] is a computer application which is viral-- an artificial life form. 
+
+[phage] filters through all available material on a specified workstation and places it in an alternate context-a visible and audible moving 3D spatialized computer world. I encourage this virus lifeform to spread via email (but only by the consent of the host). 
+
+[phage] explores a workstation's architecture and creates a poetics of
+the computer as an autonomous object, with host data as material for 
+creative fodder. The name [phage]  refers to a bacteriophage-a 
+constructive human virus that preys on harmful bacteria. [phage] 
+creates new living sculptures from our own data; she/he eradicates 
+gender notions an foundations in the life creating process.
+
+With this project I seek to counteract traditionally masculine 
+paradigms of the technological age. [phage] creates a feminist map of
+the machine through its non-hierarchical organization and its divorce of 
+creative control (and reproductive control) from the user to the machine. 
+[phage] allows the user to experience his or her computer memory 
+as a palimpsest of life experience rather than understand the computer as 
+simply a tool for daily use. By mapping a user's unique  experiences-
+through images,downloads, web sites visited, emails-it will 
+create spatial memory maps that not only reflect the computer and 
+technoculture in content, but the user's artifacts from his or her 
+interactions, exploring ideas of public, private, and memory through the
+process.",2000-01-01 00:00:00,http://archive.rhizome.org/artbase/2310/phage.zip,http://archive.rhizome.org/artbase/2310/phage.zip,by_nc_sa,"New Keywords from user: virus
+Comments from user: downloadable app for pc
+Date created: 2000-01-01",2000-01-01 00:00:00,,,"ASCI, Digital Arts and Culture, download, gender, Hard Drive, interface, memory, privacy, public space, resistance, tactical, Virtual, [phage]"

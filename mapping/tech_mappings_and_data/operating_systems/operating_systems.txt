@@ -1,0 +1,352 @@
+T108, Windows 1, Operating System, Windows, 1
+T109, Windows 2, Operating System, Windows, 2
+T110, Windows 2.03, Operating System, Windows, 2.03
+T111, Windows 3, Operating System, Windows, 3
+T112, Windows 3.1, Operating System, Windows, 3.1
+T113, Windows OS/2, Operating System, Windows, OS/2
+T114, Windows NT, Operating System, Windows, NT
+T115, Windows NT 3.1, Operating System, Windows, NT 3.1
+T116, Windows 95, Operating System, Windows, 95
+T117, Windows 95 A, Operating System, Windows, 95 A
+T118, Windows 95 B, Operating System, Windows, 95 B
+T119, Windows 95 B USB, Operating System, Windows, 95 B USB
+T120, Windows 95 C, Operating System, Windows, 95 C
+T121, Windows NT 4.0, Operating System, Windows, NT 4.0
+T122, Windows 98, Operating System, Windows, 98
+T123, Windows 2000, Operating System, Windows, 2000
+T124, Windows 2000 Professional, Operating System, Windows, 2000 Professional
+T125, Windows 2000 Server, Operating System, Windows, 2000 Server
+T126, Windows 2000 Advanced Server, Operating System, Windows, 2000 Advanced Server
+T127, Windows 2000 Datacenter Server, Operating System, Windows, 2000 Datacenter Server
+T128, Windows 2000 Advanced Server Lmtd Ed., Operating System, Windows, 2000 Advanced Server Lmtd Ed.
+T129, Windows 2000 Datacenter Lmtd. Ed., Operating System, Windows, 2000 Datacenter Lmtd. Ed.
+T130, Windows XP Home Edition, Operating System, Windows, XP Home Edition
+T131, Windows XP Professional, Operating System, Windows, XP Professional
+T132, Windows XP Media Center Edition, Operating System, Windows, XP Media Center Edition
+T133, Windows XP Tablet PC Edition, Operating System, Windows, XP Tablet PC Edition
+T134, Windows Xp Embedded, Operating System, Windows, Xp Embedded
+T135, Windows XP Starter Edition, Operating System, Windows, XP Starter Edition
+T136, Windows XP 64-bit Edition, Operating System, Windows, XP 64-bit Edition
+T137, Windows 2003 Web Edition, Operating System, Windows, 2003 Web Edition
+T138, Windows 2003 Standard Edition, Operating System, Windows, 2003 Standard Edition
+T139, Windows 2003 Enterprise Edition, Operating System, Windows, 2003 Enterprise Edition
+T140, Windows 2003 Datacenter Edition, Operating System, Windows, 2003 Datacenter Edition
+T141, Windows 2003 Small Buisness Server, Operating System, Windows, 2003 Small Buisness Server
+T142, Windows 2003 Storage Server, Operating System, Windows, 2003 Storage Server
+T143, Windows Vista Home Basic, Operating System, Windows, Vista Home Basic
+T144, Windows Vista Home Premium, Operating System, Windows, Vista Home Premium
+T145, Windows Vista Business, Operating System, Windows, Vista Business
+T146, Windows Vista Enterprise, Operating System, Windows, Vista Enterprise
+T147, Windows Vista Ultimate, Operating System, Windows, Vista Ultimate
+T148, Windows 7 Starter, Operating System, Windows, 7 Starter
+T149, Windows 7 Home Basic, Operating System, Windows, 7 Home Basic
+T150, Windows 7 Home Premium, Operating System, Windows, 7 Home Premium
+T151, Windows 7 Professional, Operating System, Windows, 7 Professional
+T152, Windows 7 Enterprise, Operating System, Windows, 7 Enterprise
+T153, Windows 7 Ultimate, Operating System, Windows, 7 Ultimate
+T154, Mac OS System 1, Operating System, Mac OS, System 1
+T155, Mac OS System 2, Operating System, Mac OS, System 2
+T156, Mac OS System 3, Operating System, Mac OS, System 3
+T157, Mac OS System 4, Operating System, Mac OS, System 4
+T158, Mac OS System 5, Operating System, Mac OS, System 5
+T159, Mac OS System 6, Operating System, Mac OS, System 6
+T160, Mac OS System 7, Operating System, Mac OS, System 7
+T161, Mac OS OS 7, Operating System, Mac OS, OS 7
+T162, Mac OS OS 8, Operating System, Mac OS, OS 8
+T163, Mac OS OS 9, Operating System, Mac OS, OS 9
+T164, Mac OS OS X, Operating System, Mac OS, OS X
+T165, Linux 0.1, Operating System, Linux, 0.1
+T166, Linux 1, Operating System, Linux, 1
+T167, Linux 1.1, Operating System, Linux, 1.1
+T168, Linux 1.2, Operating System, Linux, 1.2
+T169, Linux 1.3, Operating System, Linux, 1.3
+T170, Linux 2, Operating System, Linux, 2
+T171, Linux 2.2, Operating System, Linux, 2.2
+T172, Linux 2.4, Operating System, Linux, 2.4
+T173, Linux 2.6, Operating System, Linux, 2.6
+T174, Arch Linux 0.1, Operating System, Arch Linux, 0.1
+T175, Arch Linux 0.2, Operating System, Arch Linux, 0.2
+T176, Arch Linux 0.3, Operating System, Arch Linux, 0.3
+T177, Arch Linux 0.4, Operating System, Arch Linux, 0.4
+T178, Arch Linux 0.5, Operating System, Arch Linux, 0.5
+T179, Arch Linux 0.6, Operating System, Arch Linux, 0.6
+T180, Arch Linux 0.7, Operating System, Arch Linux, 0.7
+T181, Arch Linux 0.8, Operating System, Arch Linux, 0.8
+T182, Arch Linux 2007.05, Operating System, Arch Linux, 2007.05
+T183, Arch Linux 2007.08, Operating System, Arch Linux, 2007.08
+T184, Arch Linux 2008.06, Operating System, Arch Linux, 2008.06
+T185, Arch Linux 2009.02, Operating System, Arch Linux, 2009.02
+T186, Arch Linux 2009.08, Operating System, Arch Linux, 2009.08
+T187, Arch Linux 2010.05, Operating System, Arch Linux, 2010.05
+T188, CentOS 2, Operating System, CentOS, 2
+T189, CentOS 3.1, Operating System, CentOS, 3.1
+T190, CentOS 3.4, Operating System, CentOS, 3.4
+T191, CentOS 3.7, Operating System, CentOS, 3.7
+T192, CentOS 3.8, Operating System, CentOS, 3.8
+T193, CentOS 3.9, Operating System, CentOS, 3.9
+T194, CentOS 4, Operating System, CentOS, 4
+T195, CentOS 4.6, Operating System, CentOS, 4.6
+T196, CentOS 4.7, Operating System, CentOS, 4.7
+T197, CentOS 4.8, Operating System, CentOS, 4.8
+T198, CentOS 5, Operating System, CentOS, 5
+T199, CentOS 5.1, Operating System, CentOS, 5.1
+T200, CentOS 5.2, Operating System, CentOS, 5.2
+T201, CentOS 5.3, Operating System, CentOS, 5.3
+T202, CentOS 5.4, Operating System, CentOS, 5.4
+T203, CentOS 5.5, Operating System, CentOS, 5.5
+T204, Fedora Core 1, Operating System, Fedora, Core 1
+T205, Fedora Core 2, Operating System, Fedora, Core 2
+T206, Fedora Core 3, Operating System, Fedora, Core 3
+T207, Fedora Core 4, Operating System, Fedora, Core 4
+T208, Fedora Core 5, Operating System, Fedora, Core 5
+T209, Fedora Core 6, Operating System, Fedora, Core 6
+T210, Fedora 7, Operating System, Fedora, 7
+T211, Fedora 8, Operating System, Fedora, 8
+T212, Fedora 9, Operating System, Fedora, 9
+T213, Fedora 10, Operating System, Fedora, 10
+T214, Fedora 11, Operating System, Fedora, 11
+T215, Fedora 12, Operating System, Fedora, 12
+T216, Fedora 13, Operating System, Fedora, 13
+T217, Gentoo Linux 1, Operating System, Gentoo Linux, 1
+T218, Gentoo Linux 1.1a, Operating System, Gentoo Linux, 1.1a
+T219, Gentoo Linux 1.2, Operating System, Gentoo Linux, 1.2
+T220, Gentoo Linux 1.4, Operating System, Gentoo Linux, 1.4
+T221, Gentoo Linux 1.4, Operating System, Gentoo Linux, 1.4
+T222, Gentoo Linux 2004, Operating System, Gentoo Linux, 2004
+T223, Gentoo Linux 2004.1, Operating System, Gentoo Linux, 2004.1
+T224, Gentoo Linux 2004.2, Operating System, Gentoo Linux, 2004.2
+T225, Gentoo Linux 2004.3, Operating System, Gentoo Linux, 2004.3
+T226, Gentoo Linux 2005, Operating System, Gentoo Linux, 2005
+T227, Gentoo Linux 2005.1, Operating System, Gentoo Linux, 2005.1
+T228, Gentoo Linux 2005.1-r1, Operating System, Gentoo Linux, 2005.1-r1
+T229, Gentoo Linux 2006, Operating System, Gentoo Linux, 2006
+T230, Gentoo Linux 2006.1, Operating System, Gentoo Linux, 2006.1
+T231, Gentoo Linux 2007, Operating System, Gentoo Linux, 2007
+T232, Gentoo Linux 2008, Operating System, Gentoo Linux, 2008
+T233, Gentoo Linux 10, Operating System, Gentoo Linux, 10
+T234, Gentoo Linux 10.1, Operating System, Gentoo Linux, 10.1
+T235, Kubuntu 5.04, Operating System, Kubuntu, 5.04
+T236, Kubuntu 5.1, Operating System, Kubuntu, 5.1
+T237, Kubuntu 6.06 LTS, Operating System, Kubuntu, 6.06 LTS
+T238, Kubuntu 6.1, Operating System, Kubuntu, 6.1
+T239, Kubuntu 7.04, Operating System, Kubuntu, 7.04
+T240, Kubuntu 7.1, Operating System, Kubuntu, 7.1
+T241, Kubuntu 8.04, Operating System, Kubuntu, 8.04
+T242, Kubuntu 8.1, Operating System, Kubuntu, 8.1
+T243, Kubuntu 9.04, Operating System, Kubuntu, 9.04
+T244, Kubuntu 9.1, Operating System, Kubuntu, 9.1
+T245, Kubuntu 10.04 LTS, Operating System, Kubuntu, 10.04 LTS
+T246, Linux Mint 1, Operating System, Linux Mint, 1
+T247, Linux Mint 2, Operating System, Linux Mint, 2
+T248, Linux Mint 2.1, Operating System, Linux Mint, 2.1
+T249, Linux Mint 2.2, Operating System, Linux Mint, 2.2
+T250, Linux Mint 3, Operating System, Linux Mint, 3
+T251, Linux Mint 3.1, Operating System, Linux Mint, 3.1
+T252, Linux Mint 4, Operating System, Linux Mint, 4
+T253, Linux Mint 5, Operating System, Linux Mint, 5
+T254, Linux Mint 6, Operating System, Linux Mint, 6
+T255, Linux Mint 7, Operating System, Linux Mint, 7
+T256, Linux Mint 8, Operating System, Linux Mint, 8
+T257, Linux Mint 9, Operating System, Linux Mint, 9
+T258, openSUSE 03/01/94, Operating System, openSUSE, 03/01/94
+T259, openSUSE 07/01/94, Operating System, openSUSE, 07/01/94
+T260, openSUSE 04/01/94, Operating System, openSUSE, 04/01/94
+T261, openSUSE 08/01/95, Operating System, openSUSE, 08/01/95
+T262, openSUSE 11/01/95, Operating System, openSUSE, 11/01/95
+T263, openSUSE 4.2, Operating System, openSUSE, 4.2
+T264, openSUSE 4.3, Operating System, openSUSE, 4.3
+T265, openSUSE 4.4, Operating System, openSUSE, 4.4
+T266, openSUSE 5, Operating System, openSUSE, 5
+T267, openSUSE 5.1, Operating System, openSUSE, 5.1
+T268, openSUSE 5.2, Operating System, openSUSE, 5.2
+T269, openSUSE 5.3, Operating System, openSUSE, 5.3
+T270, openSUSE 6, Operating System, openSUSE, 6
+T271, openSUSE 6.1, Operating System, openSUSE, 6.1
+T272, openSUSE 6.2, Operating System, openSUSE, 6.2
+T273, openSUSE 6.3, Operating System, openSUSE, 6.3
+T274, openSUSE 6.4, Operating System, openSUSE, 6.4
+T275, openSUSE 7, Operating System, openSUSE, 7
+T276, openSUSE 7.1, Operating System, openSUSE, 7.1
+T277, openSUSE 7.2, Operating System, openSUSE, 7.2
+T278, openSUSE 7.3, Operating System, openSUSE, 7.3
+T279, openSUSE 8, Operating System, openSUSE, 8
+T280, openSUSE 8.1, Operating System, openSUSE, 8.1
+T281, openSUSE 8.2, Operating System, openSUSE, 8.2
+T282, openSUSE 9, Operating System, openSUSE, 9
+T283, openSUSE 9.1, Operating System, openSUSE, 9.1
+T284, openSUSE 9.2, Operating System, openSUSE, 9.2
+T285, openSUSE 9.3, Operating System, openSUSE, 9.3
+T286, openSUSE 10, Operating System, openSUSE, 10
+T287, openSUSE 10.1, Operating System, openSUSE, 10.1
+T288, openSUSE 10.1 remastered, Operating System, openSUSE, 10.1 remastered
+T289, openSUSE 10.2, Operating System, openSUSE, 10.2
+T290, openSUSE 10.3, Operating System, openSUSE, 10.3
+T291, openSUSE 11, Operating System, openSUSE, 11
+T292, openSUSE 11.1, Operating System, openSUSE, 11.1
+T293, openSUSE 11.2, Operating System, openSUSE, 11.2
+T294, openSUSE 11.3, Operating System, openSUSE, 11.3
+T295, Oracle Enterprise Linux 4, Operating System, Oracle Enterprise Linux, 4
+T296, Oracle Enterprise Linux 4.1, Operating System, Oracle Enterprise Linux, 4.1
+T297, Oracle Enterprise Linux 4.2, Operating System, Oracle Enterprise Linux, 4.2
+T298, Oracle Enterprise Linux 4.3, Operating System, Oracle Enterprise Linux, 4.3
+T299, Oracle Enterprise Linux 4.4, Operating System, Oracle Enterprise Linux, 4.4
+T300, Oracle Enterprise Linux 4.5, Operating System, Oracle Enterprise Linux, 4.5
+T301, Oracle Enterprise Linux 4.6, Operating System, Oracle Enterprise Linux, 4.6
+T302, Oracle Enterprise Linux 4.7, Operating System, Oracle Enterprise Linux, 4.7
+T303, Oracle Enterprise Linux 4.8, Operating System, Oracle Enterprise Linux, 4.8
+T304, Oracle Enterprise Linux 5, Operating System, Oracle Enterprise Linux, 5
+T305, Oracle Enterprise Linux 5.1, Operating System, Oracle Enterprise Linux, 5.1
+T306, Oracle Enterprise Linux 5.2, Operating System, Oracle Enterprise Linux, 5.2
+T307, Oracle Enterprise Linux 5.3, Operating System, Oracle Enterprise Linux, 5.3
+T308, Oracle Enterprise Linux 5.4, Operating System, Oracle Enterprise Linux, 5.4
+T309, Oracle Enterprise Linux 5.5, Operating System, Oracle Enterprise Linux, 5.5
+T310, PCLinusOS Original Release, Operating System, PCLinusOS, Original Release
+T311, PCLinusOS P.91, Operating System, PCLinusOS, P.91
+T312, PCLinusOS P.92, Operating System, PCLinusOS, P.92
+T313, PCLinusOS P.93 "MiniMe", Operating System, PCLinusOS, P.93 "MiniMe"
+T314, PCLinusOS p.93a "MiniMe", Operating System, PCLinusOS, p.93a "MiniMe"
+T315, PCLinusOS P.93a "Junior", Operating System, PCLinusOS, P.93a "Junior"
+T316, PCLinusOS P.93a "Big Daddy", Operating System, PCLinusOS, P.93a "Big Daddy"
+T317, PCLinusOS P.94, Operating System, PCLinusOS, P.94
+T318, PCLinusOS 2008 "MiniMe", Operating System, PCLinusOS, 2008 "MiniMe"
+T319, PCLinusOS 2009.1, Operating System, PCLinusOS, 2009.1
+T320, PCLinusOS 2009.2, Operating System, PCLinusOS, 2009.2
+T321, PCLinusOS 2010, Operating System, PCLinusOS, 2010
+T322, PCLinusOS 2010.1, Operating System, PCLinusOS, 2010.1
+T323, PCLinusOS 2010.7, Operating System, PCLinusOS, 2010.7
+T324, Red Hat Linux 6.2E, Operating System, Red Hat Linux, 6.2E
+T325, Red Hat Linux 2.1 AS, Operating System, Red Hat Linux, 2.1 AS
+T326, Red Hat Linux 2.1 ES, Operating System, Red Hat Linux, 2.1 ES
+T327, Red Hat Linux 3, Operating System, Red Hat Linux, 3
+T328, Red Hat Linux 3 update 1, Operating System, Red Hat Linux, 3 update 1
+T329, Red Hat Linux 3 update 2, Operating System, Red Hat Linux, 3 update 2
+T330, Red Hat Linux 3 update 3, Operating System, Red Hat Linux, 3 update 3
+T331, Red Hat Linux 3 update 4, Operating System, Red Hat Linux, 3 update 4
+T332, Red Hat Linux 3 update 5, Operating System, Red Hat Linux, 3 update 5
+T333, Red Hat Linux 3 update 6, Operating System, Red Hat Linux, 3 update 6
+T334, Red Hat Linux 3 update 7, Operating System, Red Hat Linux, 3 update 7
+T335, Red Hat Linux 3 update 8, Operating System, Red Hat Linux, 3 update 8
+T336, Red Hat Linux 3 update 9, Operating System, Red Hat Linux, 3 update 9
+T337, Red Hat Linux 4, Operating System, Red Hat Linux, 4
+T338, Red Hat Linux 4.1, Operating System, Red Hat Linux, 4.1
+T339, Red Hat Linux 4.2, Operating System, Red Hat Linux, 4.2
+T340, Red Hat Linux 4.3, Operating System, Red Hat Linux, 4.3
+T341, Red Hat Linux 4.4, Operating System, Red Hat Linux, 4.4
+T342, Red Hat Linux 4.5, Operating System, Red Hat Linux, 4.5
+T343, Red Hat Linux 4.6, Operating System, Red Hat Linux, 4.6
+T344, Red Hat Linux 4.7, Operating System, Red Hat Linux, 4.7
+T345, Red Hat Linux 4.8, Operating System, Red Hat Linux, 4.8
+T346, Red Hat Linux 5, Operating System, Red Hat Linux, 5
+T347, Red Hat Linux 5.1, Operating System, Red Hat Linux, 5.1
+T348, Red Hat Linux 5.2, Operating System, Red Hat Linux, 5.2
+T349, Red Hat Linux 5.3, Operating System, Red Hat Linux, 5.3
+T350, Red Hat Linux 5.4, Operating System, Red Hat Linux, 5.4
+T351, Red Hat Linux 5.5, Operating System, Red Hat Linux, 5.5
+T352, Sabayon Linux 3.0RC1b miniEdition, Operating System, Sabayon Linux, 3.0RC1b miniEdition
+T353, Sabayon Linux 3.0RC2, Operating System, Sabayon Linux, 3.0RC2
+T354, Sabayon Linux miniEdition 3.0 RC2, Operating System, Sabayon Linux, miniEdition 3.0 RC2
+T355, Sabayon Linux 3, Operating System, Sabayon Linux, 3
+T356, Sabayon Linux miniEdition 3.0, Operating System, Sabayon Linux, miniEdition 3.0
+T357, Sabayon Linux miniEdition 3.05, Operating System, Sabayon Linux, miniEdition 3.05
+T358, Sabayon Linux 3.1, Operating System, Sabayon Linux, 3.1
+T359, Sabayon Linux miniEdition 3.1, Operating System, Sabayon Linux, miniEdition 3.1
+T360, Sabayon Linux 3.2, Operating System, Sabayon Linux, 3.2
+T361, Sabayon Linux 3.2 miniEdition, Operating System, Sabayon Linux, 3.2 miniEdition
+T362, Sabayon Linux 3.25, Operating System, Sabayon Linux, 3.25
+T363, Sabayon Linux 3.26, Operating System, Sabayon Linux, 3.26
+T364, Sabayon Linux 3.3, Operating System, Sabayon Linux, 3.3
+T365, Sabayon Linux 3.3 miniEdition, Operating System, Sabayon Linux, 3.3 miniEdition
+T366, Sabayon Linux 3.4 Loop 1, Operating System, Sabayon Linux, 3.4 Loop 1
+T367, Sabayon Linux 3.4 Loop 2, Operating System, Sabayon Linux, 3.4 Loop 2
+T368, Sabayon Linux 3.4 Loop 3, Operating System, Sabayon Linux, 3.4 Loop 3
+T369, Sabayon Linux 1.0 "Business Edition" RE, Operating System, Sabayon Linux, 1.0 "Business Edition" RE
+T370, Sabayon Linux 3.4, Operating System, Sabayon Linux, 3.4
+T371, Sabayon Linux 3.4 Revision E, Operating System, Sabayon Linux, 3.4 Revision E
+T372, Sabayon Linux 3.4 miniEdition, Operating System, Sabayon Linux, 3.4 miniEdition
+T373, Sabayon Linux 3.4 Revision F, Operating System, Sabayon Linux, 3.4 Revision F
+T374, Sabayon Linux 1.1 Professional Edition, Operating System, Sabayon Linux, 1.1 Professional Edition
+T375, Sabayon Linux 3.5 Loop 1, Operating System, Sabayon Linux, 3.5 Loop 1
+T376, Sabayon Linux 3.5 Loop 2, Operating System, Sabayon Linux, 3.5 Loop 2
+T377, Sabayon Linux 3.5 Loop 3, Operating System, Sabayon Linux, 3.5 Loop 3
+T378, Sabayon Linux 3.5, Operating System, Sabayon Linux, 3.5
+T379, Sabayon Linux Pod 3.5, Operating System, Sabayon Linux, Pod 3.5
+T380, Sabayon Linux 03/05/01, Operating System, Sabayon Linux, 03/05/01
+T381, Sabayon Linux 4 Revision 1, Operating System, Sabayon Linux, 4 Revision 1
+T382, Sabayon Linux 4 LiteMCE, Operating System, Sabayon Linux, 4 LiteMCE
+T383, Sabayon Linux 4.1 GNOME, Operating System, Sabayon Linux, 4.1 GNOME
+T384, Sabayon Linux 4.1 KDE, Operating System, Sabayon Linux, 4.1 KDE
+T385, Sabayon Linux 4.2 GNOME, Operating System, Sabayon Linux, 4.2 GNOME
+T386, Sabayon Linux 4.2 KDE, Operating System, Sabayon Linux, 4.2 KDE
+T387, Sabayon Linux CoreCD 4.2, Operating System, Sabayon Linux, CoreCD 4.2
+T388, Sabayon Linux 5.0 GNOME, Operating System, Sabayon Linux, 5.0 GNOME
+T389, Sabayon Linux 5.0 KDE, Operating System, Sabayon Linux, 5.0 KDE
+T390, Sabayon Linux 5.1 GNOME, Operating System, Sabayon Linux, 5.1 GNOME
+T391, Sabayon Linux 5.1 KDE, Operating System, Sabayon Linux, 5.1 KDE
+T392, Sabayon Linux CoreCD 5.1, Operating System, Sabayon Linux, CoreCD 5.1
+T393, Sabayon Linux 5.1 x86 GAMING EDITION, Operating System, Sabayon Linux, 5.1 x86 GAMING EDITION
+T394, Sabayon Linux 5.2 GNOME, Operating System, Sabayon Linux, 5.2 GNOME
+T395, Sabayon Linux 5.2 KDE, Operating System, Sabayon Linux, 5.2 KDE
+T396, Sabayon Linux 5.3 GNOME, Operating System, Sabayon Linux, 5.3 GNOME
+T397, Sabayon Linux 5.3 KDE, Operating System, Sabayon Linux, 5.3 KDE
+T398, Sabayon Linux 5.3 SpinBase, Operating System, Sabayon Linux, 5.3 SpinBase
+T399, Sabayon Linux 5.3 CoreCDX, Operating System, Sabayon Linux, 5.3 CoreCDX
+T400, Sabayon Linux 5.3 LXDE, Operating System, Sabayon Linux, 5.3 LXDE
+T401, Sabayon Linux 5.3 XFCE, Operating System, Sabayon Linux, 5.3 XFCE
+T402, Sabayon Linux 5.3 SpinBase/Open VZ Templates, Operating System, Sabayon Linux, 5.3 SpinBase/Open VZ Templates
+T403, Ubuntu 4.1, Operating System, Ubuntu, 4.1
+T404, Ubuntu 5.04, Operating System, Ubuntu, 5.04
+T405, Ubuntu 5.1, Operating System, Ubuntu, 5.1
+T406, Ubuntu 6.06 LTS, Operating System, Ubuntu, 6.06 LTS
+T407, Ubuntu 6.1, Operating System, Ubuntu, 6.1
+T408, Ubuntu 7.04, Operating System, Ubuntu, 7.04
+T409, Ubuntu 7.1, Operating System, Ubuntu, 7.1
+T410, Ubuntu 8.04 LTS, Operating System, Ubuntu, 8.04 LTS
+T411, Ubuntu 8.1, Operating System, Ubuntu, 8.1
+T412, Ubuntu 9.04, Operating System, Ubuntu, 9.04
+T413, Ubuntu 9.1, Operating System, Ubuntu, 9.1
+T414, Ubuntu 10.04 LTS, Operating System, Ubuntu, 10.04 LTS
+T415, Ubuntu 10.1, Operating System, Ubuntu, 10.1
+T416, Ubuntu 11.04, Operating System, Ubuntu, 11.04
+T417, Xubuntu 5.1, Operating System, Xubuntu, 5.1
+T418, Xubuntu 6.06 LTS, Operating System, Xubuntu, 6.06 LTS
+T419, Xubuntu 6.1, Operating System, Xubuntu, 6.1
+T420, Xubuntu 7.04, Operating System, Xubuntu, 7.04
+T421, Xubuntu 7.1, Operating System, Xubuntu, 7.1
+T422, Xubuntu 8.04 LTS, Operating System, Xubuntu, 8.04 LTS
+T423, Xubuntu 8.1, Operating System, Xubuntu, 8.1
+T424, Xubuntu 9.04, Operating System, Xubuntu, 9.04
+T425, Xubuntu 9.1, Operating System, Xubuntu, 9.1
+T426, Xubuntu 10.04 LTS, Operating System, Xubuntu, 10.04 LTS
+T427, iOS (iPhone OS) 1, Operating System, iOS (iPhone OS), 1
+T428, iOS (iPhone OS) 1.0.1, Operating System, iOS (iPhone OS), 1.0.1
+T429, iOS (iPhone OS) 1.0.2, Operating System, iOS (iPhone OS), 1.0.2
+T430, iOS (iPhone OS) 1.1, Operating System, iOS (iPhone OS), 1.1
+T431, iOS (iPhone OS) 01/01/01, Operating System, iOS (iPhone OS), 01/01/01
+T432, iOS (iPhone OS) 01/01/02, Operating System, iOS (iPhone OS), 01/01/02
+T433, iOS (iPhone OS) 01/01/03, Operating System, iOS (iPhone OS), 01/01/03
+T434, iOS (iPhone OS) 01/01/04, Operating System, iOS (iPhone OS), 01/01/04
+T435, iOS (iPhone OS) 01/01/05, Operating System, iOS (iPhone OS), 01/01/05
+T436, iOS (iPhone OS) 2, Operating System, iOS (iPhone OS), 2
+T437, iOS (iPhone OS) 2.0.1, Operating System, iOS (iPhone OS), 2.0.1
+T438, iOS (iPhone OS) 2.0.2, Operating System, iOS (iPhone OS), 2.0.2
+T439, iOS (iPhone OS) 2.1, Operating System, iOS (iPhone OS), 2.1
+T440, iOS (iPhone OS) 2.2, Operating System, iOS (iPhone OS), 2.2
+T441, iOS (iPhone OS) 02/02/01, Operating System, iOS (iPhone OS), 02/02/01
+T442, iOS (iPhone OS) 3, Operating System, iOS (iPhone OS), 3
+T443, iOS (iPhone OS) 3.0.1, Operating System, iOS (iPhone OS), 3.0.1
+T444, iOS (iPhone OS) 3.1, Operating System, iOS (iPhone OS), 3.1
+T445, iOS (iPhone OS) 03/01/02, Operating System, iOS (iPhone OS), 03/01/02
+T446, iOS (iPhone OS) 03/01/03, Operating System, iOS (iPhone OS), 03/01/03
+T447, iOS (iPhone OS) 3.2, Operating System, iOS (iPhone OS), 3.2
+T448, iOS (iPhone OS) 03/02/01, Operating System, iOS (iPhone OS), 03/02/01
+T449, iOS (iPhone OS) 03/02/02, Operating System, iOS (iPhone OS), 03/02/02
+T450, iOS (iPhone OS) 4, Operating System, iOS (iPhone OS), 4
+T451, iOS (iPhone OS) 4.0.1, Operating System, iOS (iPhone OS), 4.0.1
+T452, iOS (iPhone OS) 4.0.2, Operating System, iOS (iPhone OS), 4.0.2
+T453, iOS (iPhone OS) 4.1, Operating System, iOS (iPhone OS), 4.1
+T454, Android 1.1, Operating System, Android, 1.1
+T455, Android 1.5, Operating System, Android, 1.5
+T456, Android 1.6, Operating System, Android, 1.6
+T457, Android 2, Operating System, Android, 2
+T458, Android 2.1, Operating System, Android, 2.1
+T459, Android 2.2, Operating System, Android, 2.2T

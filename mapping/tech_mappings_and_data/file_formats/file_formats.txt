@@ -1,0 +1,20 @@
+T2, Audio MP3, File Formats, Audio, MP3
+T3, Audio WAV, File Formats, Audio, WAV
+T4, Audio RAW, File Formats, Audio, RAW
+T5, Image GIFF, File Formats, Image, GIFF
+T6, Image JPEG, File Formats, Image, JPEG
+T7, Image TIFF, File Formats, Image, TIFF
+T8, Video MPEG, File Formats, Video, MPEG
+T9, Video AVI, File Formats, Video, AVI
+T10, Executional EXE, File Formats, Executional, EXE
+T11, Document DOC, File Formats, Document, DOC
+T12, Document PDF, File Formats, Document, PDF
+T13, Compression ZIP, File Formats, Compression, ZIP
+T936, Apple MPEG-4 Audio, File Formats, Audio, M4A
+T937, Macromedia Director, Plugin Object, .DCR, Unknown
+T938, SWFObject, JavaScript Library, SWFObject, 1.4.1
+T892, IMAGE PNG, File Formats, Image, PNG
+T931, Google Sketchup .SKP, File Formats, 3D, .SKP
+T923, MOV video, File Formats, Video, MOV
+T926, SWFObject, JavaScript Library, SWFObject, 1.5
+T925, .SWF, Plugin Object, .SWF, UnknownT
