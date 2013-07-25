@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="profile.xsd" useForConfiguration="1" base="base" infoUrl="">
   <profileName>collectiveaccess</profileName>
-  <profileDescription>Profile created on June 19 2013 at 7:22:23 by Ben Fino-Radin</profileDescription>
+  <profileDescription>Profile created on July 25 2013 at 17:28:54 by Ben Fino-Radin</profileDescription>
   <locales>
     <locale lang="en" country="US">English</locale>
     <locale lang="en" country="CA" dontUseForCataloguing="1">English (Canadian)</locale>
@@ -518,11 +518,11 @@
             </label>
           </labels>
         </item>
-        <item idno="ephemera" enabled="1" default="0">
+        <item idno="archival_materials" enabled="1" default="0">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Ephemera</name_singular>
-              <name_plural>Ephemera</name_plural>
+              <name_singular>Archival Material</name_singular>
+              <name_plural>Archival Materials</name_plural>
             </label>
           </labels>
         </item>
@@ -3596,7 +3596,7 @@
       <typeRestrictions>
         <restriction>
           <table>ca_objects</table>
-          <type>asset</type>
+          <type/>
           <settings>
             <setting name="minAttributesPerRow">1</setting>
             <setting name="maxAttributesPerRow">1</setting>
@@ -3651,7 +3651,7 @@
       <typeRestrictions>
         <restriction>
           <table>ca_objects</table>
-          <type>asset</type>
+          <type/>
           <settings>
             <setting name="minAttributesPerRow">1</setting>
             <setting name="maxAttributesPerRow">1</setting>
@@ -5670,6 +5670,7 @@
               <settings>
                 <setting name="label" locale="en_US">Title</setting>
                 <setting name="label" locale="1">Title</setting>
+                <setting name="height" locale="0">1</setting>
                 <setting name="readonly" locale="0">0</setting>
                 <setting name="usewysiwygeditor" locale="0">0</setting>
               </settings>
@@ -5810,7 +5811,7 @@
             </label>
           </labels>
           <typeRestrictions>
-            <restriction type="asset"/>
+            <restriction type=""/>
           </typeRestrictions>
           <bundlePlacements>
             <placement code="idno">
@@ -5917,7 +5918,7 @@
             <restriction type="Image"/>
             <restriction type="moving_image"/>
             <restriction type="Sound"/>
-            <restriction type="asset"/>
+            <restriction type=""/>
           </typeRestrictions>
           <bundlePlacements>
             <placement code="access">
@@ -8362,7 +8363,17 @@
               <typename_reverse>Has Manifestation</typename_reverse>
             </label>
           </labels>
-          <subTypeLeft>asset</subTypeLeft>
+          <subTypeLeft/>
+        </type>
+        <type code="version" default="0">
+          <labels>
+            <label locale="en_US">
+              <typename>Is version of</typename>
+              <typename_reverse>Has version</typename_reverse>
+            </label>
+          </labels>
+          <subTypeLeft>Artwork</subTypeLeft>
+          <subTypeRight>Artwork</subTypeRight>
         </type>
       </types>
     </relationshipTable>
