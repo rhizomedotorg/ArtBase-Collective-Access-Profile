@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="profile.xsd" useForConfiguration="1" base="base" infoUrl="">
-  <profileName>collectiveaccess</profileName>
-  <profileDescription>Profile created on July 25 2013 at 17:28:54 by Ben Fino-Radin</profileDescription>
+  <profileName>Rhizome Archives</profileName>
+  <profileDescription>A profile for a collection of born-digital and time based media artworks.</profileDescription>
   <locales>
     <locale lang="en" country="US">English</locale>
     <locale lang="en" country="CA" dontUseForCataloguing="1">English (Canadian)</locale>
